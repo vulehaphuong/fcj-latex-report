@@ -1,4 +1,4 @@
-baseURL = "[https://vulehaphuong.github.io/fcj-workshop-summer2026/]
+baseURL = "https://vulehaphuong.github.io/fcj-workshop-summer2026/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
