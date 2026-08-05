@@ -7,20 +7,20 @@ pre: " <b> 1.8. </b> "
 ---
 
 ### Week 8 Objectives:
-* Practice Serverless Web App Workshop to master End-to-End deployment workflows.
-* Write and publish technical Blog Posts on AWS Study Group community.
+* Complete sample hands-on lab on Cloud Journey.
+* Write guide content for section 5.3 S3 in Workshop documentation.
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Complete Serverless Web App Workshop: Connecting S3, Cognito, API Gateway, Lambda, DynamoDB | 07/20/2026 | 07/21/2026 | FCAJ - Serverless Web App Workshop |
-| 3 | - Draft Blog 1: "Cost Optimization with Serverless Architecture on AWS" | 07/21/2026 | 07/22/2026 | AWS Study Group |
-| 4 | - Draft Blog 2: "Securing S3 Buckets & Presigned URL File Uploads" | 07/22/2026 | 07/23/2026 | AWS Study Group |
-| 5 | - Draft Blog 3: "Web User Authentication with Amazon Cognito & API Gateway" | 07/23/2026 | 07/24/2026 | AWS Study Group |
-| 6 | - Publish 3 Blog Posts on AWS Study Group and add links to Report | 07/24/2026 | 07/24/2026 | Internship Report |
+| 2 | - Draft Workshop documentation: <br>&emsp; + Write step-by-step guide on creating a private secure Amazon S3 Bucket. <br>&emsp; + Write guide on setting up CloudFront and OAC permission policies. | 07/20/2026 | 07/21/2026 | |
+| 3 | - Draft Workshop documentation: <br>&emsp; + Write guide on updating S3 Bucket Policy. <br>&emsp; + Write guide on building and deploying frontend source code to S3. | 07/21/2026 | 07/22/2026 | |
+| 4 | - Finalize Workshop section 5.3 S3. | 07/22/2026 | 07/23/2026 | |
+| 5 | - Capture AWS Console step-by-step screenshots and format documentation. <br> - Push completed markdown files to shared group repository. | 07/24/2026 | 07/24/2026 | |
+| 6 | - Complete Serverless Web App Workshop lab exercises. | 07/24/2026 | 07/24/2026 | https://000117.awsstudygroup.com/vi/ |
 
 ### Week 8 Achievements:
-* Completed hands-on Serverless Web App Workshop to strengthen technical implementation skills.
-* Successfully authored and published 3 technical blogs on AWS Study Group.
-* Updated Blog Posts section in the Hugo internship report website.
+
+* Completed section 5.3 S3 Workshop guide with visual screenshots and pushed to shared repository aws_workshop_template on GitHub.
+* Successfully completed Serverless Web Application Workshop labs.

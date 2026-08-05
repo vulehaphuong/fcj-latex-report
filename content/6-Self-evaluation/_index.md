@@ -1,6 +1,6 @@
 ---
 title: "Self-Assessment"
-date: 2026-06-01
+date: 2026-06-03
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
@@ -8,7 +8,7 @@ pre: " <b> 6. </b> "
 
 
 
-During my internship at the **First Cloud AI Journey (FCAJ)** program from **June 1, 2026** to **August 21, 2026**, I had the opportunity to learn, practice, and apply cloud computing knowledge acquired in school to a real-world working environment.
+During my internship at the **First Cloud AI Journey (FCAJ)** program from **June 3, 2026** to **July 31, 2026**, I had the opportunity to learn, practice, and apply cloud computing knowledge acquired in school to a real-world working environment.
 
 I actively participated in researching, designing, and deploying the **Serverless Todo/Note Web Application on AWS** project. Through this experience, I significantly improved my professional skills in Serverless application development (AWS Lambda, API Gateway, DynamoDB), cloud security management (AWS IAM, Amazon Cognito, S3 Security), system architecture design, and bilingual technical documentation writing.
 

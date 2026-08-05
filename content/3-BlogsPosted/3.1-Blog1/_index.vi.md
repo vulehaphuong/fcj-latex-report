@@ -1,9 +1,9 @@
 ---
-title: "Event 2"
-date: 2024-01-01
+title: "Event 1"
+date: 2026-06-13
 weight: 1
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.1. </b> "
 ---
 
 # Bài thu hoạch “Kiến trúc AWS mở rộng và các nguyên tắc cơ bản về DevOps”

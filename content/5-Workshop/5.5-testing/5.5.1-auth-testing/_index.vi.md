@@ -1,6 +1,6 @@
 ---
 title: "Kiểm thử Xác thực người dùng (Amazon Cognito)"
-date: 2026-06-01
+date: 2026-06-03
 weight: 1
 chapter: false
 pre: " <b> 5.5.1. </b> "

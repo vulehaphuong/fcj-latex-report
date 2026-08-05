@@ -1,6 +1,6 @@
 ---
 title: "Kiểm thử Tải file đính kèm với S3 Presigned URL"
-date: 2026-06-01
+date: 2026-06-03
 weight: 3
 chapter: false
 pre: " <b> 5.5.3. </b> "

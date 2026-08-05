@@ -1,6 +1,6 @@
 ---
 title: "Kiểm thử Giám sát & Ghi log trên Amazon CloudWatch"
-date: 2026-06-01
+date: 2026-06-03
 weight: 5
 chapter: false
 pre: " <b> 5.5.5. </b> "

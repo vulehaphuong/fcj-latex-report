@@ -7,20 +7,19 @@ pre: " <b> 1.8. </b> "
 ---
 
 Mục tiêu tuần 8:
-* Thực hành bài Lab mẫu Serverless Web App Workshop để nắm vững quy trình End-to-End.
-* Viết và đăng các bài viết chia sẻ kiến thức (Blog Posts) lên cộng đồng AWS Study Group.
+* Thực hành thêm vài bài lab mẫu trên Cloud Journey.
+* Viết nội dung tài liệu hướng dẫn cho phần 5.3-S3
 
 Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Thực hành Serverless Web App Workshop: Kết nối S3, Cognito, API Gateway, Lambda, DynamoDB | 20/07/2026 | 21/07/2026 | FCAJ - Serverless Web App Workshop |
-| 3 | - Viết bài Blog 1: "Tối ưu hóa chi phí với kiến trúc Serverless trên AWS" | 21/07/2026 | 22/07/2026 | AWS Study Group |
-| 4 | - Viết bài Blog 2: "Bảo mật S3 Bucket và cấp quyền tải file bằng Presigned URL" | 22/07/2026 | 23/07/2026 | AWS Study Group |
-| 5 | - Viết bài Blog 3: "Xác thực người dùng ứng dụng Web với Amazon Cognito và API Gateway" | 23/07/2026 | 24/07/2026 | AWS Study Group |
-| 6 | - Đăng bài Blog lên nhóm AWS Study Group và tổng hợp link bài viết vào Báo cáo | 24/07/2026 | 24/07/2026 | Báo cáo Thực tập |
+| 2 | - Soạn thảo tài liệu Workshop phần Workshop: <br>&emsp; + Viết file hướng dẫn tạo Amazon S3 Bucket private an toàn. <br>&emsp; + Viết file hướng dẫn cấu hình CloudFront, tạo chứng chỉ OAC cấp quyền cho CloudFront đọc dữ liệu S3. | 20/07/2026 | 21/07/2026 |  |
+| 3 | - Soạn thảo tài liệu Workshop phần Workshop: <br>&emsp; + Viết file hướng dẫn Cập nhật S3 Bucket Policy. <br>&emsp; + Viết file hướng dẫn build và đẩy Source Code frontend lên S3. | 21/07/2026 | 22/07/2026 |  |
+| 4 | - Hoàn thiện workshop phần 5.3:S3 | 22/07/2026 | 23/07/2026 |  |
+| 5 | - Chụp ảnh chụp màn hình minh họa các bước thực hiện trên AWS Console, thêm vào thư mục hình ảnh và chèn ảnh vào báo cáo workshop phần S3. <br> - Push các file báo cáo lên repository chung của nhóm. | 24/07/2026 |  |
+| 6 | - Thực hành bài Lab Serverless Web App Workshop. | 24/07/2026 | 24/07/2026 | https://000117.awsstudygroup.com/vi/ |
 
 Kết quả đạt được tuần 8:
-* Hoàn thành bài Lab thực hành Serverless Web App Workshop nâng cao tay nghề.
-* Viết và xuất bản thành công 3 bài Blog kỹ thuật chất lượng lên AWS Study Group.
-* Đã cập nhật đầy đủ thông tin Blog Posts vào giao diện website báo cáo.
+* Hoàn thành tài liệu hướng dẫn 5.3-S3 (song ngữ) kèm hình ảnh trực quan, push thành công lên repository `aws_workshop_template` chung trên GitHub.
+* Thực hành hai bài lab/"Workshop Ứng dụng Web Serverless" trên Cloud Journey.

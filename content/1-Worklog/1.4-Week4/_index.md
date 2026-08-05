@@ -7,20 +7,20 @@ pre: " <b> 1.4. </b> "
 ---
 
 ### Week 4 Objectives:
-* Study Amazon DynamoDB NoSQL database for managing task and note storage.
-* Learn AWS Budgets tools for cloud resource cost management and alerts.
+* Initialize project repository and build frontend user interface.
+* Implement UI features and state logic for main pages.
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Learn NoSQL & Amazon DynamoDB: Partition Key (PK), Sort Key (SK), Read/Write Capacity | 06/22/2026 | 06/22/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 3 | - Design Data Schema for Todo App: PK (`userId`), SK (`taskId`), Attributes | 06/23/2026 | 06/23/2026 | FCAJ - DynamoDB Essentials |
-| 4 | - Practice CRUD data operations on DynamoDB via AWS Console & AWS CLI | 06/24/2026 | 06/24/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 5 | - Learn AWS Budgets and set up Billing Alerts for cost management | 06/25/2026 | 06/25/2026 | FCAJ - AWS Budgets |
-| 6 | - Evaluate and choose On-Demand Capacity Mode to optimize project cost | 06/26/2026 | 06/26/2026 | AWS Documentation |
+| 2 | - Initialize frontend repository, environment, and required libraries. <br> - Start coding Sign-in page, main layout, sidebar, home page. | 06/22/2026 | 06/22/2026 | |
+| 3 | - Develop Task List page, Task creation form, and Task editing dialogs. | 06/23/2026 | 06/24/2026 | |
+| 4 | - Research Drag and Drop implementation in React. <br> - Code Kanban board page: create tasks directly under columns, drag-and-drop tasks between status columns. | 06/24/2026 | 06/25/2026 | |
+| 5 | - Explore calendar libraries like `react-big-calendar`. <br> - Build Calendar page with features: switch Day/Week/Month views, view task details/edit on click. | 06/25/2026 | 06/25/2026 | |
+| 6 | - Build Timeline Gantt chart view displaying task deadlines. <br> - Develop Timeline page according to design. <br> - Refine completed UI pages in the week. | 06/26/2026 | 06/28/2026 | |
 
 ### Week 4 Achievements:
-* Understood DynamoDB core principles and designed an optimized data schema for Todo app.
-* Mastered PutItem, GetItem, Query, and UpdateItem operations on DynamoDB tables.
-* Successfully configured AWS Budgets alert to send Email notifications for cost control.
+
+* Successfully initialized Frontend structure with React TypeScript.
+* Completed UI programming for Sign-in, User Settings, Dashboard, Tasks, Kanban, Calendar, and Timeline pages.

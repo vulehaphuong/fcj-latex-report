@@ -1,6 +1,6 @@
 ---
 title: "Proposal"
-date: 2026-06-01
+date: 2026-06-03
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
@@ -79,7 +79,7 @@ The application is structured into 7 core layers as illustrated in the architect
 
 ### 5. Timeline & Milestones
 
-The project is executed across the **12-week internship period** (from **June 1, 2026** to **August 21, 2026**):
+The project is executed across the **12-week internship period** (from **June 03, 2026** to **July 31, 2026**):
 
 * **Month 1 (Weeks 1 - 4):**
   * Learn AWS fundamentals (Console, CLI, EC2, IAM, VPC, S3, DynamoDB NoSQL).

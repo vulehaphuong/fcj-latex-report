@@ -1,6 +1,6 @@
 ---
 title: "Testing Task & Note Management (CRUD & DynamoDB)"
-date: 2026-06-01
+date: 2026-06-03
 weight: 2
 chapter: false
 pre: " <b> 5.5.2. </b> "

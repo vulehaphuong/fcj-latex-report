@@ -7,20 +7,22 @@ pre: " <b> 1.2. </b> "
 ---
 
 ### Week 2 Objectives:
-* Master AWS identity management and security access using IAM.
-* Explore Amazon VPC virtual network infrastructure and its core components.
+* Complete guided hands-on labs/workshops on basic AWS following The First Cloud Journey roadmap.
+* Form project teams, finalize Web Cloud topic, and divide tasks.
+* Learn about resource access security on AWS with IAM.
+* Explore Amazon VPC virtual private network and its core components.
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Learn AWS IAM: Users, Groups, Roles, Policies <br> - Practice creating IAM Users and assigning Least Privilege policies | 06/08/2026 | 06/08/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 3 | - Learn Amazon VPC overview, Subnets (Public/Private), Internet Gateway | 06/09/2026 | 06/09/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 4 | - Practice creating custom VPC, dividing Subnets, and configuring Route Tables | 06/10/2026 | 06/10/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 5 | - Learn Security Groups and Network ACLs (NACL) for network security | 06/11/2026 | 06/11/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 6 | - Launch EC2 instance in custom Public Subnet and verify network routing | 06/12/2026 | 06/12/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 2 | - Learn the first module "Explore AWS Services" <br> - Hands-on: Create IAM User, grant permissions for accounts by role | 06/08/2026 | 06/08/2026 | https://cloudjourney.awsstudygroup.com/vi/ <br> https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=0ygHrSvIP0XkXxun |
+| 3 | - Learn Amazon VPC overview, Subnets, EC2 Instance, SSH connection, EBS volume. <br> - Hands-on: <br>&emsp; + Follow guide to customize EC2, NAT Gateway <br>&emsp; + Configure Site-to-Site <br>&emsp; + ... <br>&emsp; + Clean up resources after lab. | 06/09/2026 | 06/09/2026 | https://cloudjourney.awsstudygroup.com/vi/ |
+| 4 | - Form team, agree on topic "Task Management Web Application on Cloud", and define technical architecture direction. <br> - Assign project tasks. | 06/10/2026 | 06/10/2026 | https://cloudjourney.awsstudygroup.com/vi/ |
+| 5 | - Study EC2 instance types, AMI configurations, EBS volumes, User Data, and Meta Data. <br> - Hands-on: <br>&emsp; + Create Key Pair for SSH connection <br>&emsp; + Write User Data script to automatically deploy Nginx Web Server on EC2 | 06/11/2026 | 06/11/2026 | https://cloudjourney.awsstudygroup.com/vi/ |
+| 6 | - Learn AWS Cloud9 cloud IDE and VS Code AWS Toolkit. <br> - Configure EC2 server to allow remote cloud development. | 06/12/2026 | 06/12/2026 | https://cloudjourney.awsstudygroup.com/vi/ |
 
 ### Week 2 Achievements:
-* Understood IAM security access mechanisms and successfully created IAM Roles for Serverless application.
-* Successfully designed and deployed a complete custom VPC topology with Public/Private Subnets.
-* Mastered the distinction and configuration of Security Groups (Stateful) and Network ACLs (Stateless).
+
+* Understood virtual network infrastructure knowledge and EC2 server deployment methods.
+* Formed project group, finalized topic, divided tasks, and leveraged Cloud9 and AWS Toolkit tools.

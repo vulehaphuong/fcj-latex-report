@@ -1,6 +1,6 @@
 ---
 title: "Week 1 Worklog"
-date: 2026-06-01
+date: 2026-06-03
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -9,27 +9,21 @@ pre: " <b> 1.1. </b> "
 ### Week 1 Objectives:
 
 * Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn and understand company rules and regulations during the internship.
+* Understand basic AWS services, how to use Console & CLI.
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations | 06/01/2026 | 06/01/2026 | |
-| 3 | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... | 06/02/2026 | 06/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Install & configure AWS CLI <br>&emsp; + How to use AWS CLI | 06/03/2026 | 06/03/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Learn basic EC2: <br>&emsp; + Instance types, AMI, EBS <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP | 06/04/2026 | 06/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume | 06/05/2026 | 06/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Get acquainted with members and admin of FCAJ <br> - Learn internship rules and regulations <br> - Understand internship tasks <br> - Create FCAJ Portal account, update registration info, and register weekly report schedule. | 06/03/2026 | 06/03/2026 | <https://hcm-rules.awsfcaj.com/> |
+| 5 | - Learn about AWS Cloud and basic services: <br>&emsp; + Compute - EC2/Lambda (Serverless) <br>&emsp; + Storage - S3 <br>&emsp; + Networking - VPC/CloudFront <br>&emsp; + Database - DynamoDB <br>&emsp; + IAM | 06/04/2026 | 06/04/2026 | <https://cloudjourney.awsstudygroup.com/vi/> |
+| 6 | - Review policies, terms & risks when using AWS. <br> - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Hands-on:** <br>&emsp; + Set up cost alerts, configure AWS Budgets for cost control. <br>&emsp; + Install & configure AWS CLI for basic operations. | 06/05/2026 | 06/05/2026 | <https://cloudjourney.awsstudygroup.com/vi/> |
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups:
-  * Compute
-  * Storage
-  * Networking
-  * Database
-* Successfully created and configured an AWS Free Tier account.
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-* Installed and configured AWS CLI on the local machine, including Access Key, Secret Key, and Default Region.
-* Used AWS CLI to perform basic operations such as checking account configuration, retrieving region lists, managing key pairs, and checking running EC2 instances.
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
+* Acquired an overview of AWS and core service groups provided including Compute, Storage, Networking, Database, Security and Management.
+* Successfully created an AWS Free Tier account and set up cost monitoring alerts.
+* Became familiar with searching for services and managing resources on the AWS Management Console interface.
+* Successfully installed AWS CLI on local machine with configured Access Key, Secret Key, and Default Region.
+* Practiced CLI operations: creating profile, switching profiles, checking account configuration, querying Region list.
