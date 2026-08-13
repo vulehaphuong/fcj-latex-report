@@ -1,127 +1,131 @@
 ---
 title: "Event 2"
-date: 2026-06-13
+date: 2026-07-11
 weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-
-
-# Summary Report: “Scalable AWS Architecture & DevOps Fundamentals workshop”
+# Summary Report: Automated Security, SLA Monitoring & AWS Certification Roadmap
 
 ### Event Objectives
 
-- Share how to design and deploy scalable system architectures, specifically highlighting a URL shortener service on the AWS platform.
-- Provide a practical perspective and share real-world experiences regarding the roles and daily tasks of DevOps and Data Analytics Engineers in enterprises.
-- Guide the learning roadmap, equip students with foundational skills, and provide career development orientations in the IT industry starting from university.
-- Introduce standard recruitment processes and working cultures in multinational corporations (MNCs).
+- Establish a strategic roadmap and preparation strategy for the AWS Certified Cloud Practitioner exam tailored for students and entry-level engineers.
+- Introduce comprehensive cybersecurity automation solutions for web applications using the autonomous AI-powered AWS Security Agent.
+- Outline the workflow for automated penetration testing, code review, and architectural design review within a DevSecOps environment.
 
 ### Speakers
 
-- **Dat Pham** - Data Analytics Engineer
-- **Cuong Nguyen** - Process Engineer
-- **Trong H. Truong** - DevOps Engineer at Endava Vietnam
-- **Danh Hoang Hieu Nghi** - AI Engineer, AWS Community Builder, AWS Student Builder Group Leader
-- **Dinh Trung Kien** - Lead Developer at startup
-- **Nguyen Minh Tho** - Student
+- **Ngo Le Tan Huy** - AWS Cloud Specialist
+- **Nguyen Huynh Son** - Infrastructure Support Engineer at Endava, Former Infrastructure Reliability Engineer at SPS, AWS Student Builder Group Leader at HUFLIT
+- **Thinh Nguyen** - DevOps, DevSecOps, and Cloud Engineer at Styl Solutions, First Cloud AI Journey Member
 
 ### Key Highlights
 
-#### The Journey of Starting and Growing with Cloud Computing
+#### AWS Cloud Practitioner Exam Preparation Strategy
 
-Starting from Student Curiosity <br>
-→ Learning from tech communities <br>
-→ Practicing through hands-on labs <br>
-→ Building personal projects & portfolios → Becoming an AWS Partner <br>
-→ Sharing knowledge back to the community (Share Back).<br>
-Getting the job is not the destination but merely the beginning of a long journey of learning and contribution.
+**CLF-C02 exam structure**: The exam consists of 65 multiple-choice questions completed within 90 minutes, with an additional 30 minutes granted to non-native English speakers. The passing score is 700 out of 1000, and the certification remains valid for 3 years. The exam focuses on high-level concepts rather than requiring coding or complex system configurations.
 
-#### Introduction to URL Shortener System Design on AWS
+**Four key knowledge domains**:
+- Cloud Concepts: Core benefits of cloud computing, six pillars of the AWS Well-Architected Framework, and the AWS Cloud Adoption Framework.
+- Security and Compliance: The Shared Responsibility Model, Identity and Access Management IAM, infrastructure security including Security Groups, NACLs, AWS Shield, and AWS WAF, as well as compliance services such as AWS Artifact.
+- Cloud Technology and Services: AWS Global Infrastructure encompassing Regions, Availability Zones, Edge Locations, alongside service categories such as Compute with EC2 and Lambda, Storage and Databases with S3, EBS, RDS, and DynamoDB, and Networking with VPC and Route 53.
+- Billing, Pricing, and Support: EC2 pricing models, cost management tools such as AWS Budgets and Cost Explorer, and AWS Support plans including Basic, Developer, Business, and Enterprise.
 
-- The basic architecture has the **advantages** of easy deployment and low cost but faces **limitations** such as security risks, single points of failure, high latency, and difficulties in scaling.
-- To optimize performance and security, services like Amazon CloudFront, AWS WAF, and AWS Amplify can be integrated.
-- Using a Key Generation Service (KGS) on Amazon ECS to pre-generate short keys and push them into the Amazon ElastiCache (Redis) helps optimize overall system speed.
-- At the Backend, a SpringBoot application on Amazon ECS fetches the short key from Redis to map it with the destination URL and stores it in a DynamoDB database.
+**Effective study methodology**: Apply the Keyword Mapping approach by linking theoretical concepts to practical use cases. Focus on analyzing why incorrect options are wrong during practice tests and utilize an AWS Free Tier account to visualize concepts.
 
-#### Real-World Work and Career Roadmap of a DevOps Engineer
+**Exam and interview tips**: Use the process of elimination to remove illogical choices, avoid overcomplicating answers, pay attention to key terms like Not, Least cost, or Most scalable, and utilize the Flag for review feature for difficult questions.
 
-First, to truly understand DevOps, it's not just about writing CI/CD pipelines, configuring the cloud, or managing Docker/Kubernetes; it also requires a deep understanding of how applications run in the real world.<br>
-**Required Foundational Knowledge:**
-- Prioritize mastering Linux fundamentals
-- Basic Networking knowledge
-- Programming languages (e.g., Python, Golang)
-- Git
-- CI/CD
-- Containers
+#### Operational Risk Management and Service Level Agreements
 
-**Working Mindset:** Tools may change, but fundamentals stay.
-A good DevOps engineer needs to develop system thinking, stay curious and keep learning, automate boring tasks, and make things clear and easy for everyone in the team.
+**Real-world NOC and SOC operations**: Network Operation Center environments require continuous 24/7 monitoring across multiple displays, tracking proactive signals to respond to incidents promptly.
 
-#### Career Orientation and Skills of a Data Analytics Engineer
+**Concept and role of SLAs**: A Service Level Agreement is a formal contract defining expected service standards between a provider and a customer. SLAs establish clear expectations, service accountability, risk management, and performance measurement. Violating SLAs may lead to financial compensation penalties for enterprises.
 
-- **Real-world responsibilities:** Varies by industry domain, focusing on building reports, designing dashboards to track trends, conducting root cause analysis, and collaborating across departments to solve operational problems.
-- **Required skills:** Critical thinking to evaluate information objectively, effective communication skills, data storytelling capabilities, and the ability to find optimal solutions based on data.
-- **Career progression:** Follower → Learner → Problem Solver → System Thinker → Super Star.
+**Risk management loop**: Monitoring operates within risk management to detect risks early before impacting SLAs. The four-step process includes identifying risks, monitoring signals, responding through SNS or standard operating procedures, and improving systems.
 
-#### Corporate Culture in Multinational Corporations (MNCs)
+#### Monitoring Pyramid and Real-Time Alerting Flow
 
-- **Standardized recruitment process:** Candidates go through multiple screening rounds, from ATS systems to interviews assessing technical skills and culture fit.
-- **Working environment**: Cultivates a respectful and caring workplace that values diversity and encourages comprehensive development.
-- **"No-Blame Post-Mortem" culture**: When operational incidents occur, the company focuses on root cause analysis to improve systems and processes rather than assigning blame to individuals.
+**The Green Dashboard pitfall**: Infrastructure metrics displaying green status such as low CPU usage or healthy hosts do not guarantee a positive user experience. For example, database connection failures can cause login errors while health checks continue to pass.
+
+**Monitoring Pyramid structure**: Monitoring should progress from lower infrastructure levels to higher customer-oriented levels:
+- Infrastructure level: CPU, memory, disk, and network metrics.
+- Application level: Latency, error rates, and request counts.
+- Business level: Login success rates, order counts, and revenue.
+- Customer Experience level: User ability to log in, search, and complete purchases.
+
+**Automated alerting flow**: Push custom metrics into CloudWatch, trigger CloudWatch Alarms when thresholds are breached, publish notifications to SNS topics, and send alerts to Slack or Email channels for operational teams.
+
+#### Cyber Attack Detection and Automated Security
+
+**Traditional security bottlenecks**: Manual penetration testing is time-consuming, costly, and inconsistent depending on human assessors.
+
+**AWS Security Agent architecture**: Powered by Amazon Bedrock using multi-agent systems, providing autonomous reasoning across the software development lifecycle and producing verifiable findings through active exploitation.
+
+**Automated review capabilities**:
+- Design Security Review: Analyzes Markdown documentation or Terraform code against managed compliance frameworks such as PCI DSS, NIST CSF, and AWS Well-Architected Framework.
+- Code Security Review: Integrates into Pull Requests on GitHub or GitLab, inspecting code changes and suggesting automated pull request fixes while preventing credential leaks.
+- Threat Modeling: Evaluates potential architecture threats and weaknesses based on system documentation.
+
+#### Penetration Testing Workflow and Technical Limitations
+
+**Autonomous Pentesting mechanism**: Executes multi-step exploit chains, authenticates as real users, and generates attack graphs with verifiable proof.
+
+**Pricing model and Task-Hours**: Charged at 5 USD per Task-Hour based on agent execution time, offering a 2-month free trial with 400 Task-Hours per month. Parallel execution across tasks may consume 30 to 50 Task-Hours for complex applications, offering a cost-effective alternative to traditional human pentesting teams.
+
+**Deployment workflow**: Verify target domain ownership via DNS TXT records, configure GitHub App integration, define out-of-scope URLs, and provide test credentials via AWS Secrets Manager.
+
+**Technical limitations**: Agents cannot bypass strict authentication mechanisms such as Multi-Factor Authentication MFA, Biometrics, Mutual TLS mTLS, or One-Time Passwords OTP. They may also struggle with complex business logic flaws without sufficient context and can consume Task-Hours rapidly on complex applications.
 
 ### Key Takeaways
 
-#### Architectural Thinking & System Design
+#### Cybersecurity and DevSecOps Automation Mindset
+- **Behavioral Testing**: Shift from static code analysis tools like SAST or SonarQube to multi-agent AI systems that simulate realistic attack behaviors across both frontend and backend systems.
+- **CI/CD Security Integration**: Apply automated Code Security Reviews on Pull Requests to prevent credential or API key leaks and remediate vulnerabilities early in development.
+- **Understanding AI Agent Boundaries**: Recognize that AI Agents support security workflows effectively but cannot fully replace human expertise, particularly regarding mTLS, MFA, or custom business logic.
 
-- **Scalability mindset**: Always aim for a scalable and flexible system. Understand how to transition from a simple monolithic architecture to a highly scalable distributed architecture, utilizing caching and NoSQL databases.
-- **Separation of Concerns**: Designing a separate Key Generation Service (KGS) helps reduce the direct load on the primary database when generating short URLs.
-- **Latency & Security optimization**: Combine Amazon CloudFront, AWS WAF, and API Gateway to protect the system and deliver an optimal end-user experience.
+#### Infrastructure Operations and System Observability Mindset
+- **Transition to User-Centric Monitoring**: Shift away from relying solely on green dashboards and establish measurement systems based on the customer journey, including login, checkout, and payment success rates.
+- **Proactive Risk Management**: Build automated incident alerting workflows from custom metrics via CloudWatch Alarms and SNS to communication channels such as Slack or Email before user complaints arise.
+- **Business-Oriented SLA Management**: Understand the direct relationship between system downtime, SLA breaches, and financial compensation within enterprise contexts.
 
-#### DevOps Mindset & System Operations
-
-- Master **fundamental knowledge** such as Linux, Networking, and Containers instead of relying heavily on tools that constantly change over time.
-- Embrace **System Thinking**, viewing an application throughout its entire lifecycle (Build, Test, Deploy, Monitor, Fix) rather than just completing isolated tasks.
-- Learn how to analyze incidents and always look for ways to improve the system to prevent recurring errors and proactively mitigate potential future vulnerabilities.
-
-#### Career Roadmap & Professional Conduct
-
-- A career development roadmap should be built through practical products, certifications, community contributions, and continuous learning.
-- Besides technical expertise, soft skills—especially communication and active listening—play a crucial role in an international environment.
+#### Learning Methodology and AWS Certification
+- **Keyword Mapping**: Associate theoretical concepts with practical use case keywords to improve recall and efficiency during exams.
+- **Standardized Multiple-Choice Test Strategy**: Use elimination techniques for impractical options, manage time effectively, and maintain composure during examinations.
 
 ### Applying to Work
-
-- **Caching**: Optimize data queries by utilizing Redis as a cache.
-- **DynamoDB**: NoSQL database → build applications that require high security, fast response times, flexibility, and auto-scaling capabilities.
-- **Automate CI/CD pipelines**: Use Python/Golang to write automation scripts and optimize Dockerfiles, eliminating repetitive manual tasks.
-- **Enhance Data Storytelling**: Design dashboards focusing on key business metrics and perform Root Cause Analysis (RCA).
-- **Build hands-on portfolio**: Participate in practical AWS labs and proactively share back in the community to improve practical skills and expand professional networks.
+- **Trial AWS Security Agent Free Tier**: Utilize the two-month trial offering 400 Task-Hours per month to perform security reviews and penetration testing on personal projects or academic assignments.
+- **Integrate PR Security Scanning**: Install the AWS Security Agent GitHub App on repositories to automatically inspect code changes and detect secret exposure on each Pull Request.
+- **Implement User-Centric CloudWatch Metrics**: Export custom metrics tracking login and transaction success rates to AWS CloudWatch rather than measuring CPU or memory alone.
+- **Configure Automated Alerting Flow**: Set up CloudWatch Alarms combined with Amazon SNS to deliver urgent alerts via Slack or Email when application error rates spike.
+- **Register & Practice for CLF-C02**: Register an AWS Skill Builder account, complete hands-on labs using the AWS Free Tier, and apply keyword mapping to prepare for the AWS Certified Cloud Practitioner exam.
 
 ### Event Experience
 
-Attending the event was an incredibly valuable and rewarding experience, helping me expand my mindset on AWS architectural design, truly understand the nature of DevOps and Data Analytics roles, and shape my tech career roadmap.
+Attending AWS Community Day provided a valuable practical experience, helping strengthen overall perspectives on automated cybersecurity, SLA monitoring practices, and a clear roadmap for AWS certifications.
 
-#### Learning from highly skilled speakers
-- Experienced speakers from the AWS Community, Endava, Colgate-Palmolive, and Kamereo brought highly enriching and authentic real-world stories.
-- Their sharing went beyond theory, diving deep into practical technical problems and management perspectives at large corporations.
+#### Learning from Experienced Speakers
+- Speaker Ngo Le Tan Huy provided a practical, concise, and structured strategy for certification preparation.
+- Speaker Thinh Nguyen delivered an engaging demonstration of AWS Security Agent from a practical DevSecOps perspective.
+- Speaker Nguyen Huynh Son shared real-world NOC and SOC operational insights and authentic SLA management experiences from corporate practice.
 
-#### Hands-on technical exposure
-- Listening to the breakdown of each component in the URL Shortener architecture helped me clearly visualize how to combine cloud services to solve latency and scalability challenges.
-- Understanding the real perspective of an experienced DevOps Engineer helped clear up common misconceptions about the profession, revealing the hidden challenges and guiding me to choose the right learning focus.
+#### Practical Technical Experience
+- Observed the console interface directly, including domain verification steps, integration setups, and detailed vulnerability reports generated by AWS Security Agent.
+- Learned to analyze the Green Dashboard pitfall using the monitoring pyramid model and a realistic RDS database connection failure scenario.
 
-#### Impact on Mindset & Career Orientation
-- Adopting the "No-Blame Post-Mortem" mindset changed my perspective on mistakes at work: an incident is an opportunity to fortify the system, not to assign blame.
-- Clearly seeing the growth roadmap from a student to an AWS Community Builder and AWS Partner gave me a strong motivation to persistently accumulate knowledge and aim for new milestones.
+#### Mindset Shift and Career Orientation
+- Reframed cybersecurity awareness by recognizing the importance of automated penetration testing powered by AI in modern software development.
+- Developed a deeper appreciation for the responsibility toward end-user experience in infrastructure operations.
 
 #### Networking and discussions
-- The event fostered an open atmosphere, providing opportunities for direct exchange and networking with industry experts.
-- Reinforced the importance of **community involvement** (such as the AWS Student Builder Group and First Cloud AI Journey) to expand relationships and grow together.
+- Engaged in an open atmosphere that facilitated direct discussion and learning with industry professionals and peers.
 
 #### Lessons learned
-- Foundational knowledge and problem-solving mindsets are long-term assets, whereas tech tools will constantly change.
-- Career success requires a harmonious combination of deep technical expertise and communication, inclusion, and cultural understanding skills.
-- Always proactively learn, build practical products, and be ready to share knowledge back with the community.
+- Infrastructure monitoring must align continuously with actual end-user experience.
+- Adopting new automation technologies like AI Agents or automated pentesting requires understanding foundational technical constraints such as MFA, mTLS, or business logic flaws.
 
-#### Some event photos
-*Add your event photos here* 
-> In conclusion, the event provided a fresh perspective, valuable experiences, insights, and immense inspiration from the speakers, giving me a much clearer vision of my future career development path.
+#### Event Gallery
+![](/static/images/4-EventParticipated/Pic1-2026-07-11.jpg)
+![](/static/images/4-EventParticipated/Pic2-2026-07-11.jpg)
+
+> Overall, the event delivered valuable insights and practical knowledge, particularly regarding system security solutions and useful AI tools.

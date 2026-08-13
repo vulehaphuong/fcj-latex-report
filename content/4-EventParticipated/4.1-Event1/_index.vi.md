@@ -1,148 +1,126 @@
 ---
 title: "Event 1"
-date: 2024-06-06
+date: 2026-06-13
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.2. </b> "
 ---
 
-# Bài thu hoạch “Modern Cloud Infrastructure Engineering”
+# Bài thu hoạch “Kiến trúc AWS mở rộng và các nguyên tắc cơ bản về DevOps”
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ lộ trình phát triển sự nghiệp từ IT Helpdesk lên Senior Sysadmin.
-
-- Trang bị kiến thức nền tảng và thực hành về công nghệ đóng gói ứng dụng với Docker.
-
-- Giới thiệu giải pháp kiến trúc Serverless cho game realtime.
-
-- Phân tích giải pháp an ninh mạng kết hợp AWS WAF vàMachine Learning NIDS.
-
-- Hướng dẫn xây dựng hệ thống GraphRAG với Amazon Neptune và Amazon Bedrock.
-
-- Chia sẻ nghệ thuật làm việc nhóm hiệu quả, ứng dụng công cụ trong quản lý công việc.
+- Chia sẻ cách thiết kế và triển khai kiến trúc hệ thống mở rộng, điển hình như dịch vụ rút gọn liên kết trên nền tảng AWS.
+- Cung cấp góc nhìn thực tế, chia sẻ kinh  về vai trò, công việc hằng ngày của các vị trí DevOps và Data Analytics Engineer tại doanh nghiệp.
+- Hướng dẫn lộ trình học tập, trang bị kỹ năng nền tảng và định hướng phát triển sự nghiệp trong ngành IT từ khi còn là sinh viên.
+- Giới thiệu về quy trình tuyển dụng chuẩn và văn hóa làm việc tại các tập đoàn đa quốc gia.
 
 ### Danh Sách Diễn Giả
 
-- **Tran Trung Vinh** - System Administrator tại Central Retail Group
-
-- **Bao Huynh** - Junior Cloud Native Developer tại Endava Vietnam, Founder / Head Lab - ITea Lab
-
-- **Lê Hoàng Gia Đại** -  AWS Cloud Engineer &
-Cyber Security Engineer
-
-- **Viet Phat** - AI Major tại Swinburne University of Technology
-- **Nguyen Quoc Bao** - Diễn giả
-- **Truong Huy Phuoc** - Diễn giả 
+- **Đạt Phạm** - Data Analytics Engineer
+- **Cường Nguyễn** - Process Engineer
+- **Trong H. Truong** - DevOps Engineer tại Endava Vietnam
+- **Danh Hoàng Hiếu Nghị** - AI Engineer, AWS Community Builder, AWS Student Builder Group Leader
+- **Đinh Trung Kiên** - Lead developer at starup
+- **Nguyễn Minh Thọ** - Student
 
 ### Nội Dung Nổi Bật
 
-#### Hành Trình Phát Triển Sự Nghiệp Từ IT Helpdesk Đến Senior Sysadmin
+#### Hành Trình Bắt Đầu Và Phát Triển Với Điện Toán Đám Mây
 
-- **Lộ trình thực tế**: Không bắt buộc xuất phát từ các trường đại học danh tiếng. Quá trình đi từ IT Helpdesk → Junior Sysadmin → Senior Sysadmin đòi hỏi tích lũy liên tục kiến thức thực tế, tự học và hiểu sâu về hạ tầng.
-- **Tư duy vận hành & xử lý sự cố**: Đảm bảo tính sẵn sàng của hệ thống, xử lý sự cố khẩn cấp và thiết lập giám sát với Kubernetes, Grafana/Prometheus.
-- **Kinh nghiệm phỏng vấn MNCs**: Nhấn mạnh dự án thực tế, năng lực thiết kế kiến trúc, kịch bản ứng phó sự cố, kỹ năng tìm và xử lý sự cố.
-- **Lời khuyên**: Đào sâu 1–2 kỹ năng cốt lõi, ưu tiên xây dựng portfolio thực tế hơn chứng chỉ và phải kiên trì.
+Khởi đầu từ sự tò mò của sinh viên (Student Curiosity) <br>
+→ Học hỏi từ các cộng đồng công nghệ <br>
+→ Thực hành qua các bài Lab thực tế <br>
+→ Xây dựng dự án & Portfolio cá nhân → Trở thành đối tác (AWS Partner) <br>
+→ Chia sẻ tri thức ngược lại cho cộng đồng (Share Back).<br>
+Nhận được công việc không phải là đích đến mà chỉ là điểm bắt đầu cho một hành trình học tập và cống hiến lâu dài.
 
-#### Nền Tảng Containerization Và Thực Hành Với Docker
+#### Giới Thiệu Về Thiết Kế Hệ Thống Rút Gọn Liên Kết - URL Shortener Trên AWS
 
-- **Virtualization vs. Containerization**: So sánh sự khác biệt giữa **Ảo hóa truyền thống** sử dụng Hypervisor, mỗi VM chạy một OS riêng với **Đóng gói ứng dụng** chia sẻ OS kernel, nhẹ hơn, khởi động cực nhanh và tối ưu tài nguyên.
-- Nắm chắc các  khái niệm **thành phần cốt lõi của Docker**: 
-    - **Docker Image** - bản đóng gói tĩnh
-    - **Docker Container** - thể hiện thực thi của Image
-    - **Dockerfile** - kịch bản đóng gói
-    - **Docker Volume** - lưu trữ dữ liệu bền vững
-    - **Docker Network** - kết nối giữa các container
-- **Hệ thống lệnh CLI**: giới thiệu các nhóm lệnh quan trọng giúp quản lý đa container dễ dàng như `docker run`, `exec, logs`, `stop`, `build`, `pull`, `push`, `docker-compose up`, `logs`, `build`
-- **Ứng dụng thực tế**: Sử dụng rộng rãi trong CI/CD pipelines, kiến trúc Microservices, ứng dụng Cloud-native và legacy modernization.
+- Cấu trúc cơ bản tuy có **ưu điểm** dễ triển khai và chi phí thấp nhưng lại gặp **hạn chế** về rủi ro bảo mật, single point of failure, có độ trễ và khó mở rộng quy mô.
+- Để tối ưu hóa và bảo mật có thể kết hợp các dịch vụ như Amazon CloudFront, Amazon WAF và Amazon Amplify.
+- Sử dụng dịch vụ Key Generation trên Amazon ECS để tạo sẵn mã ngắn và đẩy vào bộ nhớ đệm của Amazon ElastiCache giúp tối ưu hóa tốc độ hệ thống.
+- Ở Backend, ứng dụng SpringBoot trên Amazon ECS sẽ lấy mã ngắn từ Redis để liên kết với URL đích và lưu trữ vào cơ sở dữ liệu DynamoDB.
 
-#### Kiến Trúc Game Multiplayer Serverless Với AWS WebSockets Và Godot
+#### Thực Tế Công Việc Và Lộ Trình Phát Triển Của DevOps Engineer
 
-- **Mô hình kết nối UDP/ENet**: độ trễ siêu thấp, thích hợp cho game FPS/Racing.
-- **Mô hình kết nối HTTP Polling**: đơn giản, độ trễ cao, tốn tài nguyên.
-- **Mô hình kết nối WebSocket**: kết nối hai chiều full-duplex, tin cậy, lý tưởng cho turn-based game, lobby, chat.
-- **Serverless trên AWS**: Game Client → API Gateway WebSocket → AWS Lambda → Amazon DynamoDB.
-- Đưa ra các so sánh về mô hình WebSocket kết hợp Lambda với AWS GameLift khi phát triển các dòng game có nhu cầu tính toán vật lý theo thời gian thực cao.
+Đầu tiên, để hiểu đúng về DevOps thì công việc này không chỉ xoay quanh việc viết CI/CD pipeline, cấu hình đám mây hay quản lý Docker/Kubernetes, mà còn đòi hỏi hiểu rõ cách ứng dụng vận hành trong thực tế.<br>
+**Về kiến thức nền tảng cần có:**
+- Cần ưu tiên nắm vững Linux
+- Kiến thức cơ bản về Networking
+- các ngôn ngữ lập trình (như Python, Golang)
+- Git
+- CI/CD
+- Containers
 
-#### Phát Hiện Tấn Công Mạng Kết Hợp AWS WAF Và Machine Learning NIDS
+**Tư duy làm việc:** Công cụ có thể thay đổi nhưng kiến thức nền tảng thì không. Một kỹ sư DevOps giỏi cần rèn luyện tư duy hệ thống, giữ sự tò mò và luôn học hỏi, tự động hóa các công việc nhàm chán, giữ mọi thứ đơn giản và dễ hiểu cho mọi người trong team.
 
-- **Giới hạn của WAF**: bảo vệ tầng L7 (HTTP/HTTPS) chống SQL Injection, XSS, Bot traffic hiệu quả nhưng không đủ để phát hiện các cuộc tấn công Zero-day hoặc hành vi bất thường phức tạp.
-- **ML-based NIDS:**: Hệ thống phát hiện xâm nhập mạng (NIDS) dựa trên Machine Learning trained giúp nhận dạng các dạng tấn công phức tạp như DoS/DDoS, Brute Force, FTP/SSH attacks.
-- Nên phân tích luồng dữ liệu thực tế bằng ML, đối chiếu sự kiện NIDS và AWS WAF trên Dashboard thời gian thực để nâng cao khả năng giám sát và ứng phó tự động.
-- Độ chính xác của ML phụ thuộc vào chất lượng dữ liệu và xử lý Class Imbalance; kết hợp WAF cùng ML sẽ giúp tối ưu hóa mô hình bảo mật nhiều lớp.
+#### Định Hướng Nghề Nghiệp Và Kỹ Năng Của Data Analytics Engineer
 
-#### Xây Dựng Ứng Dụng GraphRAG Hiện Đại Với Amazon Bedrock Và Amazon Neptune
+- **Thực tế công việc:**  Thay đổi theo từng ngành nghề, tập trung vào xây dựng báo cáo, thiết kế Dashboard theo dõi xu hướng, phân tích nguyên nhân gốc rễ và phối hợp cùng đa phòng ban để giải quyết các bài toán vận hành.
+- **Kỹ năng cần có:** Khả năng tư duy phản biện để nhìn nhận thông tin khách quan, kỹ năng giao tiếp hiệu quả, năng lực kể chuyện với dữ liệu, tìm ra giải pháp tối ưu dựa trên dữ liệu.
+- **Lộ trình thăng tiến:** Người thực thi (Follower) → Người học chủ động (Learner) → Người giải quyết vấn đề (Problem Solver) → Người tư duy hệ thống (System Thinker) →  dẫn dắt (Super Star).
 
-- **Hạn chế**: RAG truyền thống dựa trên Vector Search và Text Chunks → khó khăn khi xử lý các câu hỏi phức tạp hay yêu cầu truy vấn đa liên kết và dễ gây ra hiện tượng Hallucination.
-- **GraphRAG**: Tích hợp Đồ thị tri thức - Knowledge Graph giúp LLM hiểu sâu ngữ cảnh liên kết và tăng độ chính xác câu trả lời.
-- **Kiến trúc trên AWS**: Kết hợp Amazon Bedrock với Amazon Neptune/Neptune Analytics.
-- **Mô hình triển khai**: Fully Managed với Bedrock + Neptune Analytics hoặc Open-source toolkit với LlamaIndex + Custom routes.
+#### Văn Hóa Doanh Nghiệp Tại Các Tập Đoàn Đa Quốc Gia
 
-#### Nghệ Thuật Làm Việc Nhóm Hiệu Quả Và Quy Trình Phối Hợp
-"Many hands make light work" - hiệu quả làm việc nhóm vượt trội so với nỗ lực cá nhân đơn lẻ nhờ sự hiệp lực và chia sẻ khối lượng công việc.
-- 4 Quy tắc vàng trong Teamwork:
-    - **Clear & Shared Goals**: Mục tiêu chung rõ ràng và thống nhất.
-    - **Right Person, Right Place**: Phân công đúng người, đúng việc dựa trên năng lực.
-    - **Open Communication & Active Listening**: Giao tiếp cởi mở và lắng nghe tích cực.
-    - **Personal Accountability**: Tinh thần trách nhiệm cá nhân đối với công việc được giao.
-- **Ứng dụng công cụ vào quy trình**: 
-    - Quản lý mã nguồn và luồng công việc qua GitLab như Merge Requests, Code Review
-    - Công cụ quản lý dự án ClickUp 
-    - Các kênh giao tiếp tự động như Discord/ClickUp Notificationsifications
+- **Quy trình tuyển dụng bài bản:** Ứng viên trải qua nhiều vòng sàng lọc từ hệ thống ATS đến phỏng vấn đánh giá năng lực chuyên môn và độ hòa hợp văn hóa.
+- **Môi trường làm việc**: Tạo dựng văn hóa làm việc tôn trọng, quan tâm đến từng cá nhân, đề cao sự đa dạng và khuyến khích sự phát triển toàn diện.
+- **Văn hóa "No-Blame Post-Mortem"**: Khi sự cố vận hành xảy ra, doanh nghiệp tập trung phân tích nguyên nhân gốc rễ để cải tiến hệ thống và quy trình thay vì quy trách nhiệm hay đổ lỗi cho
 
 ### Những Gì Học Được
 
 #### Tư Duy Kiến Trúc & Kỹ Thuật System Design
 
-- **Kiến trúc Serverless Realtime**: Phối hợp API Gateway WebSocket, Lambda và DynamoDB để xây dựng hệ thống giao tiếp hai chiều tối ưu chi phí.
-- **GraphRAG & Knowledge Graph**: Cách ết hợp Vector DB và Graph DB (Amazon Neptune) nâng cao khả năng suy luận đa bước cho LLM.
-- **Đóng gói ứng dụng**:  Hiểu rõ bản chất ảo hóa cấp HĐH của Docker giúp xây dựng các môi trường phát triển nhất quán và dễ mở rộng.
+- **Tư duy mở rộng hệ thống**: Luôn hướng đến một hệ thống có khả năng mở rộng và linh hoạt. Hiểu rõ cách chuyển dịch từ kiến trúc monolithic đơn giản sang kiến trúc phân tán có khả năng chịu tải cao, sử dụng caching và NoSQL.
+- **Tách biệt  nhiệm vụ - Concerns**: Thiết kế dịch vụ KGS riêng biệt có thể giúp giảm tải trực tiếp cho cơ sở dữ liệu chính khi tạo mã URL
+- **Tối ưu hóa độ trễ & Bảo mật**: Kết hợp CloudFront, WAF và API Gateway để bảo vệ hệ thống và mang lại trải nghiệm tối ưu cho người dùng cuối.
 
-#### Tư Duy An Ninh Mạng & Vận Hành Hệ Thống
+#### Tư Duy DevOps & Vận Hành Hệ Thống
 
-- **Bảo mật đa lớp** Kết hợp WAF (L7) và Machine Learning NIDS mang lại cơ chế phòng thủ chủ động trước hành vi bất thường.
-- **Tư duy SysAdmin & Troubleshooting**: Hiểu sâu bản chất hạ tầng, quản lý sự cố chủ động và thiết lập giám sát liên tục.
-- **Tự động hóa & Tối ưu nguồn lực**: Ưu tiên tự động hóa CI/CD, đóng gói ứng dụng bằng Docker và tối ưu chi phí database.
+- Nắm chắc các **kiến thức cốt lõi** như Linux, Networking, Containers thay vì ỷ lại, chạy theo các công cụ tiện ích luôn thay đổi liên tục theo thời gian.
+- Học cách **Tư duy hệ thống**, nhìn nhận một ứng dụng trong toàn bộ vòng đời (Build, Test, Deploy, Monitor, Fix) thay vì chỉ hoàn thành nhiệm vụ đơn lẻ.
+- Học cách phân tích sự cố, luôn tìm hướng cải tiến hệ thống để ngăn lỗi tái diễn cũng như phòng ngừa những lỗ hổng có thể xảy ra trong tương .
 
-#### Quy Trình Phối Hợp
+#### Lộ Trình Nghề Nghiệp & Văn Hóa Ứng ử
 
-- **4 Quy tắc vàng trong Teamwork**: Mục tiêu rõ ràng, đúng người đúng việc, giao tiếp cởi mở và trách nhiệm cá nhân.
-- **Định hướng sự nghiệp**: Tăng trưởng bền vững bằng kỹ năng cốt lõi và sản phẩm thực tế, tránh chạy theo số lượng chứng chỉ.
+- Lộ trình phát triển sự nghiệp cần xây dựng qua sản phẩm thực tế, chứng chỉ, đóng góp cộng đồng và không ngừng học hỏi.
+- Bên cạnh kiến thức chuyên môn, kỹ năng mềm đặc biệt là giao tiếp, lắng nghe đóng vai trò quan trọng trong môi trường quốc tế.
 
 ### Ứng Dụng Vào Công Việc
 
-- Adopt Docker Containerization: Đóng gói microservices bằng Dockerfile và Docker Compose để chuẩn hóa môi trường Dev/Test/Prod.
-
-- Implement WebSocket Serverless: Dùng API Gateway WebSocket và AWS Lambda xây dựng tính năng realtime (chat, phòng chơi).
-
-- Integrate AWS WAF & ML NIDS: Cấu hình WAF Web ACLs kết hợp mô hình ML phát hiện xâm nhập bất thường bảo vệ hệ thống.
-
-- Deploy GraphRAG with Amazon Bedrock: Kết hợp Amazon Neptune Analytics và Bedrock giải quyết bài toán tra cứu tài liệu doanh nghiệp phức tạp.
-
-- Apply 4 Golden Rules of Teamwork: Quản lý Merge Request trên GitLab, theo dõi tiến độ qua ClickUp và giữ trách nhiệm cá nhân.
-
-- Focus on Core SysAdmin/DevOps Skills: Thực hành lab hạ tầng, rèn kỹ năng troubleshooting và hoàn thiện portfolio thực tế.
+- **Caching**: Tối ưu hóa truy vấn dữ liệu khi đưa Redis làm bộ nhớ đệm
+- **DynamoDB**: Cơ sở dữ liệu NoSQL → dựng các ứng dụng yêu cầu tính bảo mật cao, tốc độ phản hồi cao, linh hoạt, tự động mở rộng.
+- **Automate CI/CD pipelines**: Dùng Python/Golang viết các automation scripts, tối ưu Dockerfile, loại bỏ các manual tasks lặp đi lặp lại.
+- **Enhance Data Storytelling**: Thiết kế Dashboard tập trung vào các business metrics quan trọng và thực hiện RCA.
+- **Build hands-on portfolio**: Tham gia các AWS labs thực tế và chủ động share back trong community để nâng cao practical skills và mở rộng network.
 
 ### Trải nghiệm trong event
 
+Tham gia sự kiện là một trải nghiệm vô cùng giá trị và bổ ích, giúp tôi mở rộng tư duy về thiết kế kiến trúc AWS, hiểu rõ bản chất công việc DevOps, Data Analytics và định hình lộ trình phát triển sự nghiệp công nghệ.
 
 #### Học hỏi từ các diễn giả có chuyên môn cao
-- Diễn giả từ Central Retail Group, Endava, Swinburne University mang đến các góc nhìn thực chiến đa dạng.
-- Nội dung chia sẻ thực tế, bao phủ từ kỹ thuật chuyên sâu (WAF, ML NIDS, WebSockets, GraphRAG) đến trải nghiệm nghề nghiệp.
+- Các diễn giả giàu kinh nghiệm đến từ AWS Community, Endava, Colgate-Palmolive và Kamereo đã đem lại những câu chuyện thực chiến vô cùng phong phú và chân thực.
+- Những chia sẻ không dừng lại ở lý thuyết mà đi sâu vào các bài toán kỹ thuật thực tế cũng như góc nhìn quản trị tại các tập đoàn lớn.
 
 #### Trải nghiệm kỹ thuật thực tế
-- Nắm rõ kịch bản triển khai Serverless WebSocket với Godot Engine và cách xử lý đứt kết nối client.
-- Hiểu cách kết hợp ML với AWS WAF bảo vệ hệ thống và ứng dụng GraphRAG cho AI hiện đại.
+- Lắng nghe phân tích từng thành phần trong mô hình URL Shortener giúp tôi hình dung rõ ràng cách kết hợp các dịch vụ cloud để giải quyết bài toán độ trễ và khả năng mở rộng.
+- Hiểu được góc nhìn thực sự từ một DevOps Engineer có kinh nghiệm giúp tôi giải tỏa những hiểu lầm phổ biến về nghề, biết được những góc khuất cũng như khó khăn từ đó xác định phương hướng, lựa chọn đúng trọng tâm học tập.
 
+#### Tác Động Về Tư Duy & Định Hướng Nghề Nghiệp
+- Tiếp thu tư duy "No-Blame Post-Mortem" giúp thay đổi góc nhìn về sai sót trong công việc: sự cố là cơ hội để củng cố hệ thống chứ không phải để quy trách nhiệm.
+- Thấy rõ lộ trình phát triển từ một sinh viên trở thành AWS Community Builder và AWS Partner, tạo động lực mạnh mẽ cho bản thân trong việc kiên trì tích lũy kiến thức và hướng tới những cột mốc mới.
 
 #### Kết nối và trao đổi
-- Không khí cởi mở giúp kết nối sinh viên, lập trình viên và các chuyên gia trong ngành.
-- Củng cố tinh thần gắn kết nhờ 4 quy tắc vàng trong teamwork và các công cụ phối hợp số.
+- Sự kiện mang không khí cởi mở, tạo cơ hội trao đổi trực tiếp, liên lạc với các chuyên gia trong ngành.
+- Củng cố tầm quan trọng của việc **tham gia cộng đồng** (như AWS Student Builder Group, First Cloud AI Journey) để mở rộng mạng lưới quan hệ và cùng nhau phát triển.
 
 #### Bài học rút ra
-- VKiến thức nền tảng (Linux, Networking, Docker, Cloud) và tư duy giải quyết vấn đề là tài sản cốt lõi.
-- Công nghệ mới (AI/ML, GraphRAG, Serverless) cần đi đôi với tư duy an ninh mạng và kỹ năng teamwork.
+- Kiến thức nền tảng và tư duy giải quyết vấn đề mới là tài sản lâu dài, công cụ công nghệ sẽ luôn thay đổi.
+- Thành công trong sự nghiệp đòi hỏi sự kết hợp hài hòa giữa năng lực kỹ thuật chuyên sâu và kỹ năng giao tiếp, hòa nhập, thấu hiểu văn hóa.
+- Luôn chủ động học hỏi, xây dựng sản phẩm thực tế và sẵn sàng chia sẻ tri thức ngược lại cho cộng đồng.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+*Do khi đó chưa biết là phải có ảnh minh chứng tham gia sự kiện nên em không chụp lại. Dưới đây là ảnh chụp màn hình từ tính năng ghi lại hành trình di chuyển của em trên Google Map ngày 13 tháng 6. Mong anh/chị châm chước cho em ạ*
+![](/static/images/4-EventParticipated/Pic1-2026-06-13.jpg)
+
+> Tổng kết lại, sự kiện đem lại góc nhìn mới, những kinh nghiệm, chia sẻ quý báu và không kém phần truyền cảm hứng từ các anh chị diễn giả giúp tôi có cái nhìn rõ ràng hơn về định hướng phát triển trong tương lai cảu bản thân.

@@ -1,148 +1,128 @@
 ---
 title: "Event 1"
-date: 2024-06-06
+date: 2026-06-13
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.2. </b> "
 ---
 
-# Summary Report: “Modern Cloud Infrastructure Engineering”
+
+
+# Summary Report: “Scalable AWS Architecture & DevOps Fundamentals workshop”
 
 ### Event Objectives
 
-- Share the career development roadmap from IT Helpdesk to Senior Sysadmin.
-
-- Equip foundational knowledge and hands-on practice on application containerization technology with Docker.
-
-- Introduce Serverless architecture solutions for real-time games.
-
-- Analyze cyber security solutions combining AWS WAF and Machine Learning NIDS.
-
-- Guide building GraphRAG systems with Amazon Neptune and Amazon Bedrock.
-
-- Share the art of effective teamwork and applying tools in work management.
+- Share how to design and deploy scalable system architectures, specifically highlighting a URL shortener service on the AWS platform.
+- Provide a practical perspective and share real-world experiences regarding the roles and daily tasks of DevOps and Data Analytics Engineers in enterprises.
+- Guide the learning roadmap, equip students with foundational skills, and provide career development orientations in the IT industry starting from university.
+- Introduce standard recruitment processes and working cultures in multinational corporations (MNCs).
 
 ### Speakers
 
-- **Tran Trung Vinh** - System Administrator at Central Retail Group
-
-- **Bao Huynh** - Junior Cloud Native Developer at Endava Vietnam, Founder / Head Lab - ITea Lab
-
-- **Le Hoang Gia Dai** - AWS Cloud Engineer & Cyber Security Engineer
-
-- **Viet Phat** - AI Major at Swinburne University of Technology
-
-- **Nguyen Quoc Bao** - Speaker
-
-- **Truong Huy Phuoc** - Speaker
+- **Dat Pham** - Data Analytics Engineer
+- **Cuong Nguyen** - Process Engineer
+- **Trong H. Truong** - DevOps Engineer at Endava Vietnam
+- **Danh Hoang Hieu Nghi** - AI Engineer, AWS Community Builder, AWS Student Builder Group Leader
+- **Dinh Trung Kien** - Lead Developer at startup
+- **Nguyen Minh Tho** - Student
 
 ### Key Highlights
 
-#### The Career Journey from IT Helpdesk to Senior Sysadmin
+#### The Journey of Starting and Growing with Cloud Computing
 
-- **Practical roadmap**: Graduating from prestigious universities is not mandatory. The progression from IT Helpdesk → Junior Sysadmin → Senior Sysadmin requires continuously accumulating practical knowledge, self-learning, and deeply understanding infrastructure.
-- **Operational mindset & troubleshooting**: Ensure system availability, handle emergency incidents, and establish monitoring with Kubernetes, Grafana/Prometheus.
-- **MNC interview experience**: Emphasize real projects, architectural design capability, incident response scenarios, and troubleshooting skills.
-- **Advice**: Go deep into 1–2 core skills, prioritize building a real-world portfolio over certifications, and remain persistent.
+Starting from Student Curiosity <br>
+→ Learning from tech communities <br>
+→ Practicing through hands-on labs <br>
+→ Building personal projects & portfolios → Becoming an AWS Partner <br>
+→ Sharing knowledge back to the community (Share Back).<br>
+Getting the job is not the destination but merely the beginning of a long journey of learning and contribution.
 
-#### Containerization Fundamentals and Hands-on Practice with Docker
+#### Introduction to URL Shortener System Design on AWS
 
-- **Virtualization vs. Containerization**: Compare the differences between **Traditional Virtualization** using Hypervisors (where each VM runs a separate OS) and **Application Containerization** (which shares the OS kernel, making it lighter, booting extremely fast, and optimizing resources).
-- Master the **core Docker components**:
-    - **Docker Image** - static packaged blueprint
-    - **Docker Container** - executable instance of an Image
-    - **Dockerfile** - packaging script
-    - **Docker Volume** - persistent data storage
-    - **Docker Network** - inter-container connectivity
-- **CLI Command system**: Introduce key command groups that make managing multi-container setups easy, such as `docker run`, `exec`, `logs`, `stop`, `build`, `pull`, `push`, `docker-compose up`, `logs`, `build`.
-- **Real-world applications**: Widely used in CI/CD pipelines, Microservices architecture, Cloud-native applications, and legacy modernization.
+- The basic architecture has the **advantages** of easy deployment and low cost but faces **limitations** such as security risks, single points of failure, high latency, and difficulties in scaling.
+- To optimize performance and security, services like Amazon CloudFront, AWS WAF, and AWS Amplify can be integrated.
+- Using a Key Generation Service (KGS) on Amazon ECS to pre-generate short keys and push them into the Amazon ElastiCache (Redis) helps optimize overall system speed.
+- At the Backend, a SpringBoot application on Amazon ECS fetches the short key from Redis to map it with the destination URL and stores it in a DynamoDB database.
 
-#### Multiplayer Serverless Game Architecture with AWS WebSockets and Godot
+#### Real-World Work and Career Roadmap of a DevOps Engineer
 
-- **UDP/ENet connection model**: Ultra-low latency, suitable for FPS/Racing games.
-- **HTTP Polling connection model**: Simple, high latency, resource-intensive.
-- **WebSocket connection model**: Full-duplex two-way communication, reliable, ideal for turn-based games, lobby, chat.
-- **Serverless on AWS**: Game Client → API Gateway WebSocket → AWS Lambda → Amazon DynamoDB.
-- Compare the WebSocket + Lambda model with AWS GameLift when developing games with high real-time physics calculation demands.
+First, to truly understand DevOps, it's not just about writing CI/CD pipelines, configuring the cloud, or managing Docker/Kubernetes; it also requires a deep understanding of how applications run in the real world.<br>
+**Required Foundational Knowledge:**
+- Prioritize mastering Linux fundamentals
+- Basic Networking knowledge
+- Programming languages (e.g., Python, Golang)
+- Git
+- CI/CD
+- Containers
 
-#### Cyber Attack Detection Combining AWS WAF and Machine Learning NIDS
+**Working Mindset:** Tools may change, but fundamentals stay.
+A good DevOps engineer needs to develop system thinking, stay curious and keep learning, automate boring tasks, and make things clear and easy for everyone in the team.
 
-- **Limitations of WAF**: Effectively protects L7 (HTTP/HTTPS) against SQL Injection, XSS, Bot traffic, but is insufficient to detect Zero-day attacks or complex anomalous behaviors.
-- **ML-based NIDS**: A Network Intrusion Detection System (NIDS) based on trained Machine Learning that helps identify complex attack types such as DoS/DDoS, Brute Force, FTP/SSH attacks.
-- Real-time data streams should be analyzed using ML, correlating NIDS events and AWS WAF on a real-time dashboard to enhance automated monitoring and response capabilities.
-- ML accuracy depends on data quality and handling Class Imbalance; combining WAF with ML optimizes a multi-layered security model.
+#### Career Orientation and Skills of a Data Analytics Engineer
 
-#### Building Modern GraphRAG Applications with Amazon Bedrock and Amazon Neptune
+- **Real-world responsibilities:** Varies by industry domain, focusing on building reports, designing dashboards to track trends, conducting root cause analysis, and collaborating across departments to solve operational problems.
+- **Required skills:** Critical thinking to evaluate information objectively, effective communication skills, data storytelling capabilities, and the ability to find optimal solutions based on data.
+- **Career progression:** Follower → Learner → Problem Solver → System Thinker → Super Star.
 
-- **Limitations**: Traditional RAG based on Vector Search and Text Chunks struggles with complex questions or multi-hop query requirements, easily causing Hallucination.
-- **GraphRAG**: Integrates Knowledge Graphs to help LLMs deeply understand linked context and increase answer accuracy.
-- **Architecture on AWS**: Combines Amazon Bedrock with Amazon Neptune / Neptune Analytics.
-- **Deployment models**: Fully Managed with Bedrock + Neptune Analytics or Open-source toolkit with LlamaIndex + Custom routes.
+#### Corporate Culture in Multinational Corporations (MNCs)
 
-#### The Art of Effective Teamwork and Collaboration Workflow
-
-"Many hands make light work" - Teamwork efficiency vastly surpasses individual effort thanks to synergy and workload sharing.
-- 4 Golden Rules of Teamwork:
-    - **Clear & Shared Goals**: Clear and unified common goals.
-    - **Right Person, Right Place**: Assigning the right person to the right job based on competence.
-    - **Open Communication & Active Listening**: Open communication and active listening.
-    - **Personal Accountability**: Sense of personal responsibility for assigned tasks.
-- **Applying tools to workflows**:
-    - Manage source code and workflow via GitLab through Merge Requests, Code Review.
-    - ClickUp project management tool.
-    - Automated communication channels such as Discord/ClickUp Notifications.
+- **Standardized recruitment process:** Candidates go through multiple screening rounds, from ATS systems to interviews assessing technical skills and culture fit.
+- **Working environment**: Cultivates a respectful and caring workplace that values diversity and encourages comprehensive development.
+- **"No-Blame Post-Mortem" culture**: When operational incidents occur, the company focuses on root cause analysis to improve systems and processes rather than assigning blame to individuals.
 
 ### Key Takeaways
 
 #### Architectural Thinking & System Design
 
-- **Real-time Serverless Architecture**: Coordinate API Gateway WebSocket, Lambda, and DynamoDB to build cost-optimized two-way communication systems.
-- **GraphRAG & Knowledge Graph**: How combining Vector DB and Graph DB (Amazon Neptune) enhances multi-hop reasoning capabilities for LLMs.
-- **Application Containerization**: Deeply understand Docker's OS-level virtualization nature to build consistent, easily scalable development environments.
+- **Scalability mindset**: Always aim for a scalable and flexible system. Understand how to transition from a simple monolithic architecture to a highly scalable distributed architecture, utilizing caching and NoSQL databases.
+- **Separation of Concerns**: Designing a separate Key Generation Service (KGS) helps reduce the direct load on the primary database when generating short URLs.
+- **Latency & Security optimization**: Combine Amazon CloudFront, AWS WAF, and API Gateway to protect the system and deliver an optimal end-user experience.
 
-#### Cyber Security & System Operations Thinking
+#### DevOps Mindset & System Operations
 
-- **Defense in Depth**: Combining WAF (L7) and Machine Learning NIDS provides a proactive defense mechanism against anomalous behavior.
-- **SysAdmin & Troubleshooting Mindset**: Deeply understand infrastructure fundamentals, manage incidents proactively, and establish continuous monitoring.
-- **Automation & Resource Optimization**: Prioritize CI/CD automation, application packaging with Docker, and database cost optimization.
+- Master **fundamental knowledge** such as Linux, Networking, and Containers instead of relying heavily on tools that constantly change over time.
+- Embrace **System Thinking**, viewing an application throughout its entire lifecycle (Build, Test, Deploy, Monitor, Fix) rather than just completing isolated tasks.
+- Learn how to analyze incidents and always look for ways to improve the system to prevent recurring errors and proactively mitigate potential future vulnerabilities.
 
-#### Collaboration Workflow
+#### Career Roadmap & Professional Conduct
 
-- **4 Golden Rules of Teamwork**: Clear goals, right person right place, open communication, and personal accountability.
-- **Career Orientation**: Sustainable growth through core skills and practical products, avoiding chasing certification quantity.
+- A career development roadmap should be built through practical products, certifications, community contributions, and continuous learning.
+- Besides technical expertise, soft skills—especially communication and active listening—play a crucial role in an international environment.
 
 ### Applying to Work
 
-- **Adopt Docker Containerization**: Package microservices using Dockerfile and Docker Compose to standardize Dev/Test/Prod environments.
-
-- **Implement WebSocket Serverless**: Use API Gateway WebSocket and AWS Lambda to build real-time features (chat, game lobby).
-
-- **Integrate AWS WAF & ML NIDS**: Configure WAF Web ACLs combined with ML anomaly detection models to protect systems.
-
-- **Deploy GraphRAG with Amazon Bedrock**: Combine Amazon Neptune Analytics and Bedrock to solve complex enterprise document retrieval problems.
-
-- **Apply 4 Golden Rules of Teamwork**: Manage Merge Requests on GitLab, track progress on ClickUp, and maintain personal accountability.
-
-- **Focus on Core SysAdmin/DevOps Skills**: Practice infrastructure labs, hone troubleshooting skills, and complete a practical portfolio.
+- **Caching**: Optimize data queries by utilizing Redis as a cache.
+- **DynamoDB**: NoSQL database → build applications that require high security, fast response times, flexibility, and auto-scaling capabilities.
+- **Automate CI/CD pipelines**: Use Python/Golang to write automation scripts and optimize Dockerfiles, eliminating repetitive manual tasks.
+- **Enhance Data Storytelling**: Design dashboards focusing on key business metrics and perform Root Cause Analysis (RCA).
+- **Build hands-on portfolio**: Participate in practical AWS labs and proactively share back in the community to improve practical skills and expand professional networks.
 
 ### Event Experience
 
+Attending the event was an incredibly valuable and rewarding experience, helping me expand my mindset on AWS architectural design, truly understand the nature of DevOps and Data Analytics roles, and shape my tech career roadmap.
+
 #### Learning from highly skilled speakers
-- Speakers from Central Retail Group, Endava, Swinburne University brought diverse real-world perspectives.
-- Practical sharing covered everything from deep technical topics (WAF, ML NIDS, WebSockets, GraphRAG) to career experiences.
+- Experienced speakers from the AWS Community, Endava, Colgate-Palmolive, and Kamereo brought highly enriching and authentic real-world stories.
+- Their sharing went beyond theory, diving deep into practical technical problems and management perspectives at large corporations.
 
-#### Hands-on technical experience
-- Grasp the deployment scenario of Serverless WebSocket with Godot Engine and how to handle client disconnects.
-- Understand how combining ML with AWS WAF protects systems and how GraphRAG is applied to modern AI.
+#### Hands-on technical exposure
+- Listening to the breakdown of each component in the URL Shortener architecture helped me clearly visualize how to combine cloud services to solve latency and scalability challenges.
+- Understanding the real perspective of an experienced DevOps Engineer helped clear up common misconceptions about the profession, revealing the hidden challenges and guiding me to choose the right learning focus.
 
-#### Networking and exchange
-- An open atmosphere helped connect students, developers, and industry experts.
-- Reinforced bonding spirit thanks to the 4 golden rules of teamwork and digital collaboration tools.
+#### Impact on Mindset & Career Orientation
+- Adopting the "No-Blame Post-Mortem" mindset changed my perspective on mistakes at work: an incident is an opportunity to fortify the system, not to assign blame.
+- Clearly seeing the growth roadmap from a student to an AWS Community Builder and AWS Partner gave me a strong motivation to persistently accumulate knowledge and aim for new milestones.
+
+#### Networking and discussions
+- The event fostered an open atmosphere, providing opportunities for direct exchange and networking with industry experts.
+- Reinforced the importance of **community involvement** (such as the AWS Student Builder Group and First Cloud AI Journey) to expand relationships and grow together.
 
 #### Lessons learned
-- Foundational knowledge (Linux, Networking, Docker, Cloud) and problem-solving mindsets are core assets.
-- Emerging technologies (AI/ML, GraphRAG, Serverless) must go hand in hand with cyber security thinking and teamwork skills.
+- Foundational knowledge and problem-solving mindsets are long-term assets, whereas tech tools will constantly change.
+- Career success requires a harmonious combination of deep technical expertise and communication, inclusion, and cultural understanding skills.
+- Always proactively learn, build practical products, and be ready to share knowledge back with the community.
 
 #### Some event photos
-*Add your event photos here*
-> Overall, the event provided not only technical knowledge but also transformed my mindset regarding application design, system modernization, and more effective cross-team collaboration.
+![](/static/images/4-EventParticipated/Pic1-2026-06-13.jpg)
+
+> In conclusion, the event provided a fresh perspective, valuable experiences, insights, and immense inspiration from the speakers, giving me a much clearer vision of my future career development path.

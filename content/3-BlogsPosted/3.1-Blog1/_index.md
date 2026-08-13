@@ -1,127 +1,80 @@
 ---
-title: "Event 1"
-date: 2026-06-13
+title: "Blog 1: Local Data Storage with Amazon S3 in AWS Local Zones"
+date: 2026-07-20
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 3.1. </b> "
 ---
 
 
+# LOCAL DATA STORAGE WITH AMAZON S3 IN AWS LOCAL ZONES
 
-# Summary Report: “Scalable AWS Architecture & DevOps Fundamentals workshop”
+In the cloud computing era, enterprises can store data in data centers distributed worldwide. However, specialized sectors such as banking, healthcare, and government agencies often face strict regulatory requirements regarding data location. For example, user data generated in Vietnam may be legally required to reside within national geographic boundaries rather than being transferred to an overseas AWS Region.
 
-### Event Objectives
+Previously, organizations had to build on-premise data centers or maintain local storage infrastructure to comply with data residency rules. This approach was not only capital-intensive but also required dedicated engineering teams for hardware maintenance, backups, and capacity scaling.
 
-- Share how to design and deploy scalable system architectures, specifically highlighting a URL shortener service on the AWS platform.
-- Provide a practical perspective and share real-world experiences regarding the roles and daily tasks of DevOps and Data Analytics Engineers in enterprises.
-- Guide the learning roadmap, equip students with foundational skills, and provide career development orientations in the IT industry starting from university.
-- Introduce standard recruitment processes and working cultures in multinational corporations (MNCs).
+**Amazon S3 in AWS Local Zones** addresses this challenge by enabling organizations to store data within a specific geographic location while leveraging the familiar tools and management paradigms of Amazon S3. Supported Local Zones with S3 include Istanbul, Athens, and notably **Hanoi, Vietnam**.
 
-### Speakers
+---
 
-- **Dat Pham** - Data Analytics Engineer
-- **Cuong Nguyen** - Process Engineer
-- **Trong H. Truong** - DevOps Engineer at Endava Vietnam
-- **Danh Hoang Hieu Nghi** - AI Engineer, AWS Community Builder, AWS Student Builder Group Leader
-- **Dinh Trung Kien** - Lead Developer at startup
-- **Nguyen Minh Tho** - Student
+## 🌟 KEY HIGHLIGHTS
 
-### Key Highlights
+1. **Geographic-Specific Data Residency:** When creating an *S3 Directory Bucket*, administrators can select the specific Local Zone for data placement, ensuring strict compliance with local **Data Residency** regulations.
 
-#### The Journey of Starting and Growing with Cloud Computing
+2. **Bringing Amazon S3 Closer to End-Users:** AWS Local Zones extend core AWS infrastructure to major metropolitan areas located far from primary AWS Regions, significantly reducing application latency for local end-users.
 
-Starting from Student Curiosity <br>
-→ Learning from tech communities <br>
-→ Practicing through hands-on labs <br>
-→ Building personal projects & portfolios → Becoming an AWS Partner <br>
-→ Sharing knowledge back to the community (Share Back).<br>
-Getting the job is not the destination but merely the beginning of a long journey of learning and contribution.
+3. **Purpose-Built S3 Directory Buckets:** S3 in Local Zones utilizes specialized **Directory Buckets**. Unlike standard *S3 General Purpose Buckets* spanning multiple Availability Zones, Directory Buckets are pinned to a single designated zone for single-digit millisecond latency performance.
 
-#### Introduction to URL Shortener System Design on AWS
+4. **Familiar S3 Tools and APIs:** Developers do not need to learn new storage SDKs. Operations remain fully compatible with the AWS Management Console, AWS CLI, AWS SDKs, and standard S3 APIs such as `PutObject`, `GetObject`, and `CopyObject`.
 
-- The basic architecture has the **advantages** of easy deployment and low cost but faces **limitations** such as security risks, single points of failure, high latency, and difficulties in scaling.
-- To optimize performance and security, services like Amazon CloudFront, AWS WAF, and AWS Amplify can be integrated.
-- Using a Key Generation Service (KGS) on Amazon ECS to pre-generate short keys and push them into the Amazon ElastiCache (Redis) helps optimize overall system speed.
-- At the Backend, a SpringBoot application on Amazon ECS fetches the short key from Redis to map it with the destination URL and stores it in a DynamoDB database.
+5. **Automated Endpoint Routing:** Control plane operations (bucket creation, policy management) are routed through the parent AWS Region, while data plane operations (uploads/downloads) route directly to the Local Zone endpoint automatically.
 
-#### Real-World Work and Career Roadmap of a DevOps Engineer
+6. **Block Public Access by Default:** Directory Buckets enforce **Block Public Access** by default, preventing accidental internet exposure. Access is governed via AWS IAM and Bucket Policies.
 
-First, to truly understand DevOps, it's not just about writing CI/CD pipelines, configuring the cloud, or managing Docker/Kubernetes; it also requires a deep understanding of how applications run in the real world.<br>
-**Required Foundational Knowledge:**
-- Prioritize mastering Linux fundamentals
-- Basic Networking knowledge
-- Programming languages (e.g., Python, Golang)
-- Git
-- CI/CD
-- Containers
+7. **Flexible Data Migration:** Data can be seamlessly replicated from primary Region S3 buckets to Local Zone Directory Buckets using S3 Batch Operations or AWS CLI commands:
+   ```bash
+   aws s3 cp --recursive s3://my-region-bucket s3://my-localzone-bucket--han1-az1--x-s3
+   ```
 
-**Working Mindset:** Tools may change, but fundamentals stay.
-A good DevOps engineer needs to develop system thinking, stay curious and keep learning, automate boring tasks, and make things clear and easy for everyone in the team.
+8. **Ecosystem Service Integration:** Enables dependent services such as Amazon EBS to store EC2 volume snapshots locally in Hanoi, and Amazon EMR to process big data workloads without backhauling data to distant regions.
 
-#### Career Orientation and Skills of a Data Analytics Engineer
+---
 
-- **Real-world responsibilities:** Varies by industry domain, focusing on building reports, designing dashboards to track trends, conducting root cause analysis, and collaborating across departments to solve operational problems.
-- **Required skills:** Critical thinking to evaluate information objectively, effective communication skills, data storytelling capabilities, and the ability to find optimal solutions based on data.
-- **Career progression:** Follower → Learner → Problem Solver → System Thinker → Super Star.
+## 🏥 REAL-WORLD CASE STUDY: HEALTHCARE SYSTEM IN VIETNAM
 
-#### Corporate Culture in Multinational Corporations (MNCs)
+A hospital in Vietnam is building a medical imaging archive and analysis system (PACS/DICOM). Due to strict medical privacy regulations, all patient data must remain geographically within Vietnam while maintaining high availability and scalability.
 
-- **Standardized recruitment process:** Candidates go through multiple screening rounds, from ATS systems to interviews assessing technical skills and culture fit.
-- **Working environment**: Cultivates a respectful and caring workplace that values diversity and encourages comprehensive development.
-- **"No-Blame Post-Mortem" culture**: When operational incidents occur, the company focuses on root cause analysis to improve systems and processes rather than assigning blame to individuals.
+By deploying **Amazon S3 in Hanoi Local Zone**, the hospital established the following architecture:
 
-### Key Takeaways
+```text
+[Medical Devices / Users] 
+       │
+       ▼
+[EC2 Application in Hanoi Local Zone]
+       │
+       ▼
+[Amazon S3 Directory Bucket (Hanoi Local Zone)]
+```
 
-#### Architectural Thinking & System Design
+* **Local Zone Application:** Hosted on Amazon EC2 within the Hanoi Local Zone to process images close to the medical equipment.
+* **Amazon S3 Directory Bucket:** Stores medical records and DICOM objects locally in Hanoi.
+* **AWS IAM & Bucket Policy:** Enforces granular access control (Doctors have read-only access; imaging devices have write-only access).
+* **Amazon EBS Local Snapshots:** Backs up EC2 application state directly within the Hanoi Local Zone.
 
-- **Scalability mindset**: Always aim for a scalable and flexible system. Understand how to transition from a simple monolithic architecture to a highly scalable distributed architecture, utilizing caching and NoSQL databases.
-- **Separation of Concerns**: Designing a separate Key Generation Service (KGS) helps reduce the direct load on the primary database when generating short URLs.
-- **Latency & Security optimization**: Combine Amazon CloudFront, AWS WAF, and API Gateway to protect the system and deliver an optimal end-user experience.
+---
 
-#### DevOps Mindset & System Operations
+## 📊 MIGRATING DATA TO LOCAL ZONES
 
-- Master **fundamental knowledge** such as Linux, Networking, and Containers instead of relying heavily on tools that constantly change over time.
-- Embrace **System Thinking**, viewing an application throughout its entire lifecycle (Build, Test, Deploy, Monitor, Fix) rather than just completing isolated tasks.
-- Learn how to analyze incidents and always look for ways to improve the system to prevent recurring errors and proactively mitigate potential future vulnerabilities.
+* **Large Datasets from Parent Region:** Utilize **S3 Batch Operations** for automated, trackable object replication with completion reports.
+* **On-Premise / IoT Data:** Use AWS CLI scripts or embed `PutObject` API calls directly into edge devices.
+* *Technical Note:* The `aws s3 sync` command is currently unsupported for Directory Buckets; use `aws s3 cp --recursive` instead.
 
-#### Career Roadmap & Professional Conduct
+---
 
-- A career development roadmap should be built through practical products, certifications, community contributions, and continuous learning.
-- Besides technical expertise, soft skills—especially communication and active listening—play a crucial role in an international environment.
+## 📝 CONCLUSION
 
-### Applying to Work
+Amazon S3 in AWS Local Zones (specifically the **Hanoi Local Zone**) provides a crucial link connecting **Data Residency Compliance** with **Cloud Scalability**. It empowers enterprises in Vietnam's Finance, Healthcare, and Public sectors to modernize their data stack without sacrificing local storage control.
 
-- **Caching**: Optimize data queries by utilizing Redis as a cache.
-- **DynamoDB**: NoSQL database → build applications that require high security, fast response times, flexibility, and auto-scaling capabilities.
-- **Automate CI/CD pipelines**: Use Python/Golang to write automation scripts and optimize Dockerfiles, eliminating repetitive manual tasks.
-- **Enhance Data Storytelling**: Design dashboards focusing on key business metrics and perform Root Cause Analysis (RCA).
-- **Build hands-on portfolio**: Participate in practical AWS labs and proactively share back in the community to improve practical skills and expand professional networks.
+🔗 **Original Reference Document:** [AWS Blog: Unlocking Data Residency with Amazon S3 in AWS Local Zones](https://aws.amazon.com/blogs/aws/unlocking-data-residency-with-amazon-s3-in-aws-local-zones/)
 
-### Event Experience
-
-Attending the event was an incredibly valuable and rewarding experience, helping me expand my mindset on AWS architectural design, truly understand the nature of DevOps and Data Analytics roles, and shape my tech career roadmap.
-
-#### Learning from highly skilled speakers
-- Experienced speakers from the AWS Community, Endava, Colgate-Palmolive, and Kamereo brought highly enriching and authentic real-world stories.
-- Their sharing went beyond theory, diving deep into practical technical problems and management perspectives at large corporations.
-
-#### Hands-on technical exposure
-- Listening to the breakdown of each component in the URL Shortener architecture helped me clearly visualize how to combine cloud services to solve latency and scalability challenges.
-- Understanding the real perspective of an experienced DevOps Engineer helped clear up common misconceptions about the profession, revealing the hidden challenges and guiding me to choose the right learning focus.
-
-#### Impact on Mindset & Career Orientation
-- Adopting the "No-Blame Post-Mortem" mindset changed my perspective on mistakes at work: an incident is an opportunity to fortify the system, not to assign blame.
-- Clearly seeing the growth roadmap from a student to an AWS Community Builder and AWS Partner gave me a strong motivation to persistently accumulate knowledge and aim for new milestones.
-
-#### Networking and discussions
-- The event fostered an open atmosphere, providing opportunities for direct exchange and networking with industry experts.
-- Reinforced the importance of **community involvement** (such as the AWS Student Builder Group and First Cloud AI Journey) to expand relationships and grow together.
-
-#### Lessons learned
-- Foundational knowledge and problem-solving mindsets are long-term assets, whereas tech tools will constantly change.
-- Career success requires a harmonious combination of deep technical expertise and communication, inclusion, and cultural understanding skills.
-- Always proactively learn, build practical products, and be ready to share knowledge back with the community.
-
-#### Some event photos
-*Add your event photos here* 
-> In conclusion, the event provided a fresh perspective, valuable experiences, insights, and immense inspiration from the speakers, giving me a much clearer vision of my future career development path.
+![Blog](<../../images/3-Blogs/Blog1.png>)
