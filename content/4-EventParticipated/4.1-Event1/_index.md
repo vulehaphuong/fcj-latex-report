@@ -123,6 +123,7 @@ Attending the event was an incredibly valuable and rewarding experience, helping
 - Always proactively learn, build practical products, and be ready to share knowledge back with the community.
 
 #### Some event photos
+*At the time, I was unaware that photographic proof of event participation was required, so I did not take any photos. Below is a screenshot from my Google Maps location history for June 13th.*
 ![](../../images/4-EventParticipated/Pic1-2026-06-13.jpg)
 
 > In conclusion, the event provided a fresh perspective, valuable experiences, insights, and immense inspiration from the speakers, giving me a much clearer vision of my future career development path.
