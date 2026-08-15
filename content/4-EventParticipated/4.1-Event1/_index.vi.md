@@ -121,6 +121,6 @@ Tham gia sự kiện là một trải nghiệm vô cùng giá trị và bổ íc
 
 #### Một số hình ảnh khi tham gia sự kiện
 *Do khi đó chưa biết là phải có ảnh minh chứng tham gia sự kiện nên em không chụp lại. Dưới đây là ảnh chụp màn hình từ tính năng ghi lại hành trình di chuyển của em trên Google Map ngày 13 tháng 6. Mong anh/chị châm chước cho em ạ*
-![](/static/images/4-EventParticipated/Pic1-2026-06-13.jpg)
+![Event Gallery](../../images/4-EventParticipated/Pic1-2026-06-13.jpg)
 
 > Tổng kết lại, sự kiện đem lại góc nhìn mới, những kinh nghiệm, chia sẻ quý báu và không kém phần truyền cảm hứng từ các anh chị diễn giả giúp tôi có cái nhìn rõ ràng hơn về định hướng phát triển trong tương lai cảu bản thân.
