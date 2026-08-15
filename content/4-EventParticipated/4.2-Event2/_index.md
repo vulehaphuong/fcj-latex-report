@@ -1,7 +1,7 @@
 ---
 title: "Event 2"
 date: 2026-07-11
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
@@ -125,7 +125,7 @@ Attending AWS Community Day provided a valuable practical experience, helping st
 - Adopting new automation technologies like AI Agents or automated pentesting requires understanding foundational technical constraints such as MFA, mTLS, or business logic flaws.
 
 #### Event Gallery
-![](/static/images/4-EventParticipated/Pic1-2026-07-11.jpg)
-![](/static/images/4-EventParticipated/Pic2-2026-07-11.jpg)
+![Event Gallery](/images/4-EventParticipated/Pic1-2026-07-11.jpg)
+![Event Gallery](/images/4-EventParticipated/Pic2-2026-07-11.jpg)
 
 > Overall, the event delivered valuable insights and practical knowledge, particularly regarding system security solutions and useful AI tools.
