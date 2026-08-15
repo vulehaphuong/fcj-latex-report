@@ -1,7 +1,7 @@
 ---
 title: "Event 2"
 date: 2026-07-11
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
@@ -152,7 +152,7 @@ Tham gia sự kiện là một trải nghiệm học thuật vô cùng giá tr�
 - Làm chủ công nghệ tự động hóa mới như AI Agent hay Pentesting cần đi đôi với việc thấu hiểu các rào cản kỹ thuật bản chất như MFA, mTLS hay Logic flaws.
 
 #### Một số hình ảnh khi tham gia sự kiện
-![](/static/images/4-EventParticipated/Pic1-2026-07-11.jpg)
-![](/static/images/4-EventParticipated/Pic2-2026-07-11.jpg)
+![Event Gallery](/images/4-EventParticipated/Pic1-2026-07-11.jpg)
+![Event Gallery](/images/4-EventParticipated/Pic2-2026-07-11.jpg)
 
 > Cuối cùng, sự kiện mang đến những kinh nghiệm và kiến thức giá trị, đặc biệt là các giải pháp bảo mật hệ thống cùng việc giới thiệu công cụ AI tự động hóa rất bổ ích.
