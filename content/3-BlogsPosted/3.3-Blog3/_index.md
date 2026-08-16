@@ -79,7 +79,7 @@ An e-commerce platform needs to manage millions of historical order records:
 
 ---
 
-## 📝 CONCLUSION
+## CONCLUSION
 
 **Bulk Executor for Amazon DynamoDB** transforms complex, distributed data processing tasks into simple, familiar terminal commands. By pairing a lightweight command-line interface with AWS Glue's distributed processing power, engineering teams can save significant development effort while safely operating on large-scale DynamoDB datasets.
 

@@ -106,7 +106,7 @@ All utilized services fall well within the **AWS Free Tier** allocation:
 * **Amazon Cognito:** 50,000 Monthly Active Users (MAUs) free $\rightarrow$ **$0.00**
 * **Amazon API Gateway:** 1,000,000 HTTP API calls free per month $\rightarrow$ **$0.00**
 
-👉 **Total Estimated Monthly Cost:** **$0.00 USD/month** (Max **$0.50 USD/month** for minimal overages).
+**Total Estimated Monthly Cost:** **$0.00 USD/month** (Max **$0.50 USD/month** for minimal overages).
 
 ---
 
