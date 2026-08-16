@@ -18,7 +18,7 @@ With **Self-Managed Amazon S3 Buckets**, Lambda can now read deployment packages
 
 ---
 
-## 🌟 KEY HIGHLIGHTS
+## KEY HIGHLIGHTS
 
 1. **Direct Code Access from S3:** In this mode, the deployment package in S3 becomes the primary code source for the function. Lambda no longer copies the file into its internal service-managed storage.
 2. **Two Flexible Storage Modes:**
@@ -86,7 +86,7 @@ A Serverless E-commerce platform utilizes hundreds of Lambda Functions (Authenti
 
 ---
 
-## 📝 CONCLUSION
+## CONCLUSION
 
 **Self-Managed Amazon S3 Buckets (REFERENCE Mode)** gives teams granular control over AWS Lambda deployment artifacts. By using S3 objects directly as code sources, organizations reduce quota pressure, streamline CI/CD releases, enable instant rollbacks, and enforce strict enterprise security controls.
 

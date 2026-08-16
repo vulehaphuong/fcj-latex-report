@@ -21,7 +21,7 @@ Tuy nhiên, doanh nghiệp đôi khi cần thực hiện các thao tác trên to
 
 ---
 
-## 🌟 NHỮNG ĐIỂM NỔI BẬT
+## NHỮNG ĐIỂM NỔI BẬT
 
 1. **Trải nghiệm dòng lệnh (CLI) đơn giản:** Người dùng tương tác trực tiếp qua Terminal (trên máy cá nhân, EC2 hoặc Container). Công cụ hoạt động như một ứng dụng cục bộ nhưng sức mạnh xử lý dữ liệu lớn được gánh vác bởi AWS Glue trên Cloud.
 2. **Không cần tự dựng hệ thống xử lý song song:** Bulk Executor tự động quản lý Segmented Scan, Spark DataFrame, phân chia task, tổng hợp kết quả và xử lý lỗi. Người dùng không cần kiến thức chuyên sâu về Apache Spark hay AWS Glue.
@@ -34,7 +34,7 @@ Tuy nhiên, doanh nghiệp đôi khi cần thực hiện các thao tác trên to
 
 ---
 
-## 🛠️ CÁC THAO TÁC BULK PHỔ BIẾN
+## CÁC THAO TÁC BULK PHỔ BIẾN
 
 | Lệnh | Mô tả chức năng |
 | :--- | :--- |
@@ -50,7 +50,7 @@ Tuy nhiên, doanh nghiệp đôi khi cần thực hiện các thao tác trên to
 
 ---
 
-## 📐 KIẾN TRÚC HOẠT ĐỘNG & TÌNH HUỐNG THỰC TẾ
+## KIẾN TRÚC HOẠT ĐỘNG & TÌNH HUỐNG THỰC TẾ
 
 ### Mô hình kiến trúc
 ```text
@@ -74,7 +74,7 @@ Một hệ thống Thương mại Điện tử muốn xử lý dữ liệu hàng
 
 ---
 
-## 🔐 QUẢN LÝ BẢO MẬT, CHI PHÍ VÀ LƯU Ý
+## QUẢN LÝ BẢO MẬT, CHI PHÍ VÀ LƯU Ý
 
 * **Bảo vệ dữ liệu với PITR:** Trước khi chạy các thao tác ghi/xóa hàng loạt (`update`, `delete`), Bulk Executor yêu cầu bảng phải được bật **Point-in-Time Recovery (PITR)** để có thể khôi phục dữ liệu nếu xảy ra sơ xuất.
 * **Phân quyền IAM Least Privilege:** Sử dụng cơ chế Bootstrap tạo sẵn các tài nguyên cần thiết (Glue Job, S3 Bucket, CloudWatch Log Group). Phân chia rõ vai trò giữa *Bulk Admin* (thiết lập môi trường) và *Bulk User* (chỉ có quyền chạy job).
@@ -82,7 +82,7 @@ Một hệ thống Thương mại Điện tử muốn xử lý dữ liệu hàng
 
 ---
 
-## 📝 KẾT LUẬN
+## KẾT LUẬN
 
 **Bulk Executor for Amazon DynamoDB** là công cụ mạnh mẽ giúp biến các bài toán xử lý dữ liệu quy mô lớn phức tạp thành những câu lệnh CLI đơn giản. Việc kết hợp giữa giao diện dòng lệnh nhẹ nhàng và sức mạnh tính toán phân tán của AWS Glue giúp doanh nghiệp tiết kiệm đáng kể thời gian phát triển và vận hành hệ thống.
 

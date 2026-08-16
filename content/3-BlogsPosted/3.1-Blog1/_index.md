@@ -17,7 +17,7 @@ Previously, organizations had to build on-premise data centers or maintain local
 
 ---
 
-## 🌟 KEY HIGHLIGHTS
+## KEY HIGHLIGHTS
 
 1. **Geographic-Specific Data Residency:** When creating an *S3 Directory Bucket*, administrators can select the specific Local Zone for data placement, ensuring strict compliance with local **Data Residency** regulations.
 
@@ -71,7 +71,7 @@ By deploying **Amazon S3 in Hanoi Local Zone**, the hospital established the fol
 
 ---
 
-## 📝 CONCLUSION
+## CONCLUSION
 
 Amazon S3 in AWS Local Zones (specifically the **Hanoi Local Zone**) provides a crucial link connecting **Data Residency Compliance** with **Cloud Scalability**. It empowers enterprises in Vietnam's Finance, Healthcare, and Public sectors to modernize their data stack without sacrificing local storage control.
 

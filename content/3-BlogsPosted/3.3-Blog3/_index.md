@@ -18,7 +18,7 @@ However, organizations occasionally need to execute bulk operations across entir
 
 ---
 
-## 🌟 KEY HIGHLIGHTS
+## KEY HIGHLIGHTS
 
 1. **Simple Terminal (CLI) Experience:** Users interact via Terminal (local machine, EC2 instance, or container). The tool behaves like a local command-line app, while heavy data processing is offloaded to AWS Glue on Cloud.
 2. **No Custom Parallel Processing Required:** Bulk Executor automatically manages Segmented Scans, Spark DataFrames, job partitioning, result aggregation, and error handling. Users do not need deep Apache Spark or Glue expertise.
@@ -31,7 +31,7 @@ However, organizations occasionally need to execute bulk operations across entir
 
 ---
 
-## 🛠️ COMMON BULK OPERATIONS
+## COMMON BULK OPERATIONS
 
 | Command | Description |
 | :--- | :--- |
@@ -47,7 +47,7 @@ However, organizations occasionally need to execute bulk operations across entir
 
 ---
 
-## 📐 ARCHITECTURE & REAL-WORLD USE CASE
+## ARCHITECTURE & REAL-WORLD USE CASE
 
 ### Operating Architecture
 ```text
@@ -71,7 +71,7 @@ An e-commerce platform needs to manage millions of historical order records:
 
 ---
 
-## 🔐 SECURITY, COST CONTROL & CONSIDERATIONS
+## SECURITY, COST CONTROL & CONSIDERATIONS
 
 * **Data Protection via PITR:** Before executing destructive or modifying commands (`update`, `delete`), Bulk Executor enforces that **Point-in-Time Recovery (PITR)** is enabled on the target table for safety rollbacks.
 * **Least Privilege IAM Roles:** Bootstrapping creates required Cloud infrastructure (Glue Job, S3 Bucket, CloudWatch Log Group). It strictly separates roles between *Bulk Admin* (environment setup) and *Bulk User* (job execution/logs).

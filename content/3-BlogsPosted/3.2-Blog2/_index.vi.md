@@ -20,7 +20,7 @@ Với tính năng **Self-Managed Amazon S3 Buckets**, Lambda có thể đọc tr
 
 ---
 
-## 🌟 NHỮNG ĐIỂM NỔI BẬT
+## NHỮNG ĐIỂM NỔI BẬT
 
 1. **Lambda đọc mã nguồn trực tiếp từ S3:** Deployment package trong S3 trở thành nguồn mã triển khai chính thức. Lambda không cần sao chép tệp sang vùng lưu trữ nội bộ của dịch vụ trước khi sử dụng.
 2. **Hai chế độ lưu trữ linh hoạt:** * **`COPY` (Mặc định):** Lambda tạo một bản sao độc lập của mã nguồn vào vùng lưu trữ nội bộ.
@@ -87,7 +87,7 @@ Một hệ thống Thương mại Điện tử Serverless quản lý hàng trăm
 
 ---
 
-## 📝 KẾT LUẬN
+## KẾT LUẬN
 
 Tính năng **Self-Managed Amazon S3 Buckets (REFERENCE Mode)** giúp doanh nghiệp hoàn toàn chủ động trong việc quản lý mã nguồn AWS Lambda. Đây là giải pháp tối ưu cho các hệ thống Serverless quy mô lớn, giúp giảm tải hạn mức lưu trữ, nâng cao tính bảo mật và tối ưu hóa quy trình CI/CD deployment.
 

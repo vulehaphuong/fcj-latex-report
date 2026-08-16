@@ -21,7 +21,7 @@ Trước đây, để đáp ứng yêu cầu này, doanh nghiệp thường ph�
 
 ---
 
-## 🌟 NHỮNG ĐIỂM NỔI BẬT
+## NHỮNG ĐIỂM NỔI BẬT
 
 1. **Lưu trữ dữ liệu trong phạm vi địa lý cụ thể:** Khi tạo *S3 Directory Bucket*, người dùng có thể lựa chọn Local Zone nơi dữ liệu sẽ được lưu trữ. Điều này giúp doanh nghiệp kiểm soát rõ ràng vị trí của dữ liệu và hỗ trợ đáp ứng các yêu cầu về **Data Residency** (Yêu cầu dữ liệu phải nằm trong một quốc gia hoặc khu vực nhất định).
 
@@ -75,7 +75,7 @@ Với **Amazon S3 trong Hanoi Local Zone**, bệnh viện xây dựng kiến tr�
 
 ---
 
-## 📝 KẾT LUẬN
+## KẾT LUẬN
 
 Amazon S3 trong AWS Local Zones (đặc biệt là **Hanoi Local Zone**) là bước tiến quan trọng giúp giải quyết bài toán cân bằng giữa **Data Residency** (Tuân thủ vị trí dữ liệu) và **Cloud Flexibility** (Tính linh hoạt của điện toán đám mây) cho các doanh nghiệp Tài chính, Y tế và Cơ quan nhà nước tại Việt Nam.
 

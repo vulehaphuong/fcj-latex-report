@@ -117,7 +117,7 @@ Toàn bộ tài nguyên sử dụng nằm trong phạm vi **AWS Free Tier**:
 * **Amazon Cognito:** 50.000 Monthly Active Users (MAUs) miễn phí $\rightarrow$ **$0.00**
 * **Amazon API Gateway:** 1.000.000 HTTP API requests/tháng trong năm đầu $\rightarrow$ **$0.00**
 
-👉 **Tổng chi phí dự kiến:** **$0.00 USD/tháng** (Tối đa không quá **$0.50 USD/tháng** nếu vượt Free Tier nhẹ).
+**Tổng chi phí dự kiến:** **$0.00 USD/tháng** (Tối đa không quá **$0.50 USD/tháng** nếu vượt Free Tier nhẹ).
 
 ---
 
