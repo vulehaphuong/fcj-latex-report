@@ -3,7 +3,10 @@ title: "Blog 2: Chủ Động Quản Lý Mã Nguồn AWS Lambda Với Amazon S3 
 date: 2026-07-22
 weight: 2
 chapter: false
-pre: " <b> 3.2. </b> "
+pre: " <b> 3.3.2. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: true
 ---
 
 
@@ -33,13 +36,13 @@ Với tính năng **Self-Managed Amazon S3 Buckets**, Lambda có thể đọc tr
 
 ## 🔄 SO SÁNH QUY TRÌNH TRIỂN KHAI
 
-### 1. Chế độ truyền thống (`COPY` Mode)
+#### 1. Chế độ truyền thống (`COPY` Mode)
 ```text
 Lập trình viên ──> CI/CD Pipeline ──> S3 Bucket cá nhân ──> Lambda-Managed Storage ──> AWS Lambda Function
 ```
 * **Nhược điểm:** Tệp triển khai bị lưu trùng lặp ở 2 nơi. Không thể áp dụng trực tiếp Lifecycle Policy hay KMS Key riêng cho bản sao nội bộ của Lambda.
 
-### 2. Chế độ mới (`REFERENCE` Mode - Self-Managed S3)
+#### 2. Chế độ mới (`REFERENCE` Mode - Self-Managed S3)
 ```text
 Lập trình viên ──> CI/CD Pipeline ──> S3 Artifact Bucket (Self-Managed) ──> AWS Lambda Function (Read Reference)
 ```
@@ -90,4 +93,4 @@ Tính năng **Self-Managed Amazon S3 Buckets (REFERENCE Mode)** giúp doanh nghi
 
 🔗 **Link tài liệu tham khảo gốc:** [AWS Compute Blog: Introducing Self-Managed Amazon S3 Buckets for AWS Lambda Function Code](https://aws.amazon.com/blogs/compute/introducing-self-managed-amazon-s3-buckets-for-aws-lambda-function-code/)
 
-![Blog](<../../../images/3-Blogs/Blog2.png>)
+![Blog](../../../images/3-Blogs/Blog2.png)

@@ -3,7 +3,10 @@ title: "Blog 3: Xử Lý Hàng Triệu Bản Ghi DynamoDB Dễ Dàng Hơn Với 
 date: 2026-07-24
 weight: 3
 chapter: false
-pre: " <b> 3.3. </b> "
+pre: " <b> 3.3.3. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: true
 ---
 
 

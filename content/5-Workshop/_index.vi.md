@@ -4,6 +4,9 @@ date: 2026-07-31
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: false
 ---
 
 
@@ -11,7 +14,7 @@ pre: " <b> 5. </b> "
 
 #### Tổng quan
 
-Workshop này hướng dẫn bạn xây dựng và triển khai một ứng dụng web quản lý công việc và ghi chú theo kiến trúc serverless trên AWS. Người dùng có thể đăng ký tài khoản, quản lý hồ sơ, tổ chức công việc bằng trạng thái và danh mục tùy chỉnh, tự động lưu bản nháp, sử dụng bộ lọc, xem thống kê, import hoặc export công việc và tải lên các tệp đính kèm riêng tư.
+Workshop này sẽ hướng dẫn xây dựng và triển khai một ứng dụng web quản lý công việc và ghi chú theo kiến trúc serverless trên AWS. Người dùng có thể đăng ký tài khoản, quản lý hồ sơ, tổ chức công việc bằng trạng thái và danh mục tùy chỉnh, tự động lưu bản nháp, sử dụng bộ lọc, xem thống kê, import hoặc export công việc và tải lên các tệp đính kèm riêng tư.
 
 Kiến trúc của dự án được chia thành các nhóm dịch vụ sau:
 + **Frontend & Authentication** - Lưu frontend tĩnh trong Amazon S3, phân phối nội dung thông qua Amazon CloudFront và sử dụng Amazon Cognito để đăng ký và xác thực người dùng.
@@ -19,7 +22,7 @@ Kiến trúc của dự án được chia thành các nhóm dịch vụ sau:
 + **Data & Storage** - Lưu dữ liệu thuộc quyền sở hữu của từng người dùng trong Amazon DynamoDB, đồng thời lưu ảnh đại diện và tệp đính kèm của công việc trong một Amazon S3 bucket riêng tư.
 + **Monitoring & Permissions** - Thu thập log của API và Lambda bằng Amazon CloudWatch, đồng thời kiểm soát quyền truy cập giữa các dịch vụ bằng AWS IAM.
 
-Trong quá trình triển khai, bạn sẽ tự chọn tên tài nguyên và AWS Region phù hợp với môi trường của mình. Frontend nhận JWT từ Cognito và gửi access token đến API Gateway. API Gateway kiểm tra token trước khi gọi Lambda, còn Lambda giao tiếp với DynamoDB, S3 bucket chứa tệp đính kèm và các Cognito administrative API khi cần thiết.
+Trong quá trình triển khai, ta sẽ tự chọn tên tài nguyên và AWS Region phù hợp với môi trường của mình. Frontend nhận JWT từ Cognito và gửi access token đến API Gateway. API Gateway kiểm tra token trước khi gọi Lambda, còn Lambda giao tiếp với DynamoDB, S3 bucket chứa tệp đính kèm và các Cognito administrative API khi cần thiết.
 
 #### Nội dung
 

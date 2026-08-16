@@ -4,6 +4,9 @@ date: 2026-07-11
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: true
 ---
 
 # Bài thu hoạch “Automated Security, SLA Monitoring & AWS Certification Roadmap”

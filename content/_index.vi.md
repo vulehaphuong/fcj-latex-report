@@ -3,6 +3,10 @@ title: "Báo cáo thực tập"
 date: 2026-25-07
 weight: 1
 chapter: false
+
+includeInReport: true
+reportHeadings:
+  - "Báo cáo thực tập"
 ---
 
 # Báo cáo thực tập

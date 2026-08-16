@@ -18,7 +18,7 @@ Bước đầu tiên để lưu trữ mã nguồn tĩnh Frontend (HTML, CSS, JS 
 
 3. Trong phần **General configuration**, thiết lập các thông tin sau:
    * **AWS Region:** Chọn `ap-southeast-1` (Singapore) để tối ưu độ trễ.
-   * **Bucket name:** Đặt tên cho bucket của bạn. Tên này phải là duy nhất trên toàn cầu (ví dụ: `amzn-s3-demobucket-todo`).
+   * **Bucket name:** Đặt tên cho bucket. Tên này phải là duy nhất trên toàn cầu (ví dụ: `amzn-s3-demobucket-todo`).
 
 ![Create S3 Bucket](../../../../images/5-Workshop/5.3-S3/s3-step2.png)
 
@@ -28,9 +28,9 @@ Bước đầu tiên để lưu trữ mã nguồn tĩnh Frontend (HTML, CSS, JS 
 
 ![Create S3 Bucket](../../../../images/5-Workshop/5.3-S3/s3-step3.png)
 
-6. Các cấu hình còn lại thì bạn có thể giữ nguyên mặc định.
+6. Các cấu hình còn lại có thể giữ nguyên mặc định.
 7. Kéo xuống cuối trang và nhấp vào nút **Create bucket**.
 
 ![Create S3 Bucket](../../../../images/5-Workshop/5.3-S3/s3-step4.png)
 
-Sau khi tạo thành công, bạn sẽ thấy bucket của mình xuất hiện trong danh sách với nhãn `Buckets and objects not public`. Hãy chuyển sang bước tiếp theo để cấu hình CloudFront phân phối nội dung từ bucket Private này.
+Sau khi tạo thành công, ta sẽ thấy bucket của mình xuất hiện trong danh sách với nhãn `Buckets and objects not public`. Hãy chuyển sang bước tiếp theo để cấu hình CloudFront phân phối nội dung từ bucket Private này.

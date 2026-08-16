@@ -1,9 +1,14 @@
 ---
-title : "Thiết lập S3 Frontend & CloudFront"
-date : 2024-01-01 
-weight : 3
-chapter : true
-pre : " <b> 5.3. </b> "
+title: "Thiết lập S3 Frontend & CloudFront"
+date: 2026-07-27
+weight: 3
+chapter: true
+pre: " <b> 5.3. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: true
+reportHeadings:
+  - Mục tiêu của phần này
 ---
 
 ### Mục tiêu của phần này

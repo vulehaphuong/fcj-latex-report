@@ -8,16 +8,15 @@ pre : " <b> 5.6. </b> "
 
 #### Dọn dẹp tài nguyên
 
-Xin chúc mừng bạn đã hoàn thành xong workshop này!
-Trong workshop này, bạn đã học cách xây dựng và triển khai một mô hình kiến trúc Web Serverless hoàn chỉnh và bảo mật trên AWS.
+Trong workshop này, ta đã học cách xây dựng và triển khai một mô hình kiến trúc Web Serverless hoàn chỉnh và bảo mật trên AWS.
 
-+ Bằng cách kết hợp Amazon S3, CloudFront và OAC, bạn đã phân phối giao diện web tĩnh với tốc độ cao và an toàn tuyệt đối mà không cần mở Public Access.
-+ Bằng cách sử dụng Amazon Cognito, API Gateway, AWS Lambda và DynamoDB, bạn đã xây dựng một hệ thống Backend phi máy chủ mạnh mẽ, tự động mở rộng và tối ưu hóa chi phí vận hành.
++ Bằng cách kết hợp Amazon S3, CloudFront và OAC, ta đã phân phối giao diện web tĩnh với tốc độ cao và an toàn tuyệt đối mà không cần mở Public Access.
++ Bằng cách sử dụng Amazon Cognito, API Gateway, AWS Lambda và DynamoDB, ta đã xây dựng một hệ thống Backend phi máy chủ mạnh mẽ, tự động mở rộng và tối ưu hóa chi phí vận hành.
 
 #### Các bước dọn dẹp
 
 1. **Vô hiệu hóa và xóa CloudFront Distribution**
-Điều hướng đến dịch vụ CloudFront trên console. Chọn Distribution mà bạn đã tạo cho dự án này. Nhấp vào **Disable** (quá trình này có thể mất khoảng 3-5 phút). Sau khi trạng thái chuyển sang *Disabled*, chọn lại Distribution đó và nhấp vào **Delete**.
+Điều hướng đến dịch vụ CloudFront trên console. Chọn Distribution mà ta đã tạo cho dự án này. Nhấp vào **Disable** (quá trình này có thể mất khoảng 3-5 phút). Sau khi trạng thái chuyển sang *Disabled*, chọn lại Distribution đó và nhấp vào **Delete**.
 
 ![delete cloudfront](../../../images/5-Workshop/5.6-Cleanup/delete-cloudfront.png)
 

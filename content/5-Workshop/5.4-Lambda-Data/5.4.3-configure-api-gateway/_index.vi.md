@@ -21,8 +21,7 @@ Mở **API Gateway → Create API → HTTP API → Build**.
 1. Thêm Lambda integration.
 2. Chọn Region và function đã tạo ở phần 5.4.2.
 3. Đặt tên API, ví dụ `YOUR_API_NAME`.
-4. Dùng stage `$default` với automatic deployment, hoặc ghi lại tên stage riêng
-   mà bạn tạo.
+4. Dùng stage `$default` với automatic deployment, hoặc ghi lại tên stage riêng nếu đã được tạo trước đó.
 
 Khi tạo integration bằng console, API Gateway có thể tự thêm quyền invoke vào
 resource policy của Lambda.

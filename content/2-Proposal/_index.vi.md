@@ -1,9 +1,21 @@
 ---
-title: "Proposal"
+title: "Đề xuất dự án"
 date: 2026-06-03
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: true
+reportHeadings:
+  - 1. Tóm tắt Dự án (Executive Summary)
+  - 2. Đặt vấn đề & Giải pháp (Problem Statement)
+  - 3. Kiến trúc Giải pháp (Solution Architecture)
+  - 4. Yêu cầu & Bối cảnh Kỹ thuật (Technical Implementation)
+  - 5. Lộ trình Triển khai (Timeline & Milestones)
+  - 6. Dự toán Ngân sách (Budget Estimation)
+  - 7. Đánh giá & Quản trị Rủi ro (Risk Assessment)
+  - 8. Kết quả Mong đợi (Expected Outcomes)
 ---
 
 # Serverless Todo/Note Web Application on AWS

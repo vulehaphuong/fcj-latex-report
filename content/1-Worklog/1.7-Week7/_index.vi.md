@@ -4,11 +4,27 @@ date: 2026-07-13
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
+
+# Các tùy chọn cho bản PDF LaTeX
+includeInReport: true     # Đổi thành false nếu muốn ẩn trang này trong bản in PDF
+
+reportType: worklog       # Kích hoạt script tối ưu bảng cho PDF
+
+reportTableColumns:       # Chọn chính xác tên các cột trong bảng Markdown muốn in ra PDF
+  - Thứ
+  - Công việc
+  - Ngày bắt đầu
+  - Ngày hoàn thành
+
+reportHeadings:           # Chọn chính xác các tiêu đề (Heading) muốn trích xuất ra PDF
+  - Mục tiêu tuần 7
+  - Các công việc cần triển khai trong tuần này
+  - Kết quả đạt được tuần 7
 ---
 
 Mục tiêu tuần 7:
 * Cùng nhóm kiểm thử, chỉnh sửa và cải tiến để hoàn thiện phiên bản cuối cùng của trang web
-* Soạn thảo một phần của báo cáo.
+* Soạn thảo báo cáo.
 
 Các công việc cần triển khai trong tuần này:
 

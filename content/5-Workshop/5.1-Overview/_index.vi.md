@@ -4,6 +4,9 @@ date : 2026-07-31
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: true
 ---
 
 #### Ứng dụng quản lý công việc và ghi chú

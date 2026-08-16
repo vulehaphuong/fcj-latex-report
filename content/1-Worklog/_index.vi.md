@@ -1,14 +1,17 @@
 ---
-title: "Worklog"
+title: "Nhật ký công việc"
 date: 2026-06-03
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
+
+# Các tùy chọn cho bản PDF LaTeX
+includeInReport: false
 ---
 
 
 
-Trang này tổng hợp nhật ký công việc thực tập (Worklog) trong suốt chương trình **First Cloud AI Journey (FCAJ)**. Quá trình thực tập được triển khai xuyên suốt **9 tuần** (từ ngày **03/06/2026** đến ngày **31/07/2026**), bao gồm các giai đoạn học tập dịch vụ AWS nền tảng, nghiên cứu chuyên sâu các công nghệ Serverless/Security, triển khai dự án thực tế **Serverless Todo/Note Web Application** và hoàn thiện báo cáo.
+Phần tổng hợp nhật ký công việc thực tập (Worklog) trong suốt chương trình **First Cloud AI Journey (FCAJ)**. Quá trình thực tập được triển khai xuyên suốt **9 tuần** (từ ngày **03/06/2026** đến ngày **31/07/2026**), bao gồm các giai đoạn học tập dịch vụ AWS nền tảng, nghiên cứu chuyên sâu các công nghệ Serverless/Security, triển khai dự án thực tế **Serverless Todo/Note Web Application** và hoàn thiện báo cáo.
 
 Dưới đây là tóm tắt tiến độ công việc theo từng tuần:
 

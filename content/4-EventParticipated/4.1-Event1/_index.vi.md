@@ -4,6 +4,9 @@ date: 2026-06-13
 weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: true
 ---
 
 # Bài thu hoạch “Kiến trúc AWS mở rộng và các nguyên tắc cơ bản về DevOps”

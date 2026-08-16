@@ -3,7 +3,10 @@ title: "Blog 1: Lưu Trữ Dữ Liệu Địa Phương Với Amazon S3 Trong AWS
 date: 2026-07-20
 weight: 1
 chapter: false
-pre: " <b> 3.1. </b> "
+pre: " <b> 3.3.1. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: true
 ---
 
 
@@ -78,4 +81,4 @@ Amazon S3 trong AWS Local Zones (đặc biệt là **Hanoi Local Zone**) là bư
 
 🔗 **Link tài liệu tham khảo gốc:** [AWS Blog: Unlocking Data Residency with Amazon S3 in AWS Local Zones](https://aws.amazon.com/blogs/aws/unlocking-data-residency-with-amazon-s3-in-aws-local-zones/)
 
-![Blog](<../../../images/3-Blogs/Blog1.png>)
+![Blog](../../../images/3-Blogs/Blog1.png)

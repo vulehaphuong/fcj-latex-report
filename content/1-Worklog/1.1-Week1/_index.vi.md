@@ -4,6 +4,22 @@ date: 2026-06-03
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
+
+# Các tùy chọn cho bản PDF LaTeX
+includeInReport: true     # Đổi thành false nếu muốn ẩn trang này trong bản in PDF
+
+reportType: worklog       # Kích hoạt script tối ưu bảng cho PDF
+
+reportTableColumns:       # Chọn các cột trong bảng Markdown muốn in ra PDF
+  - Thứ
+  - Công việc
+  - Ngày bắt đầu
+  - Ngày hoàn thành
+
+reportHeadings:           # Chọn các tiêu đề muốn trích xuất ra PDF
+  - Mục tiêu tuần 1
+  - Các công việc cần triển khai trong tuần này
+  - Kết quả đạt được tuần 1
 ---
 
 Mục tiêu tuần 1:

@@ -12,16 +12,16 @@ Mặc dù CloudFront đã được cấu hình OAC để có thể truy cập S3
 #### Các bước thực hiện
 
 1. Mở một tab mới, truy cập vào dịch vụ **S3** trên AWS Management Console.
-2. Từ danh sách Buckets, nhấp vào tên S3 Bucket frontend mà bạn đã tạo ở bước 5.3.1.
+2. Từ danh sách Buckets, nhấp vào tên S3 Bucket frontend đã tạo ở bước 3.5.3.1.
 3. Chuyển sang tab **Permissions** (Quyền).
 4. Cuộn xuống phần **Bucket policy** và nhấp vào nút **Edit** (Chỉnh sửa).
 
 ![Edit S3 Bucket Policy](../../../../images/5-Workshop/5.3-S3/s3-policy-edit.png)
 
-5. Trong khung soạn thảo **Policy**, hãy xóa bất kỳ nội dung cũ nào (nếu có) và **Dán (Paste)** đoạn mã JSON mà bạn đã copy từ CloudFront ở bước 5.3.2 vào đây.
+5. Trong khung soạn thảo **Policy**, hãy xóa bất kỳ nội dung cũ nào (nếu có) và **Paste** đoạn mã JSON đã copy từ CloudFront ở bước 5.3.2 vào đây.
 
 6. Cuộn xuống cuối trang và nhấp vào nút **Save changes** (Lưu thay đổi).
 
 ![Paste Policy and Save](../../../../images/5-Workshop/5.3-S3/s3-policy-save.png)
 
-Sau khi lưu thành công, bạn sẽ thấy thông báo màu xanh lá cây xác nhận policy đã được cập nhật. Lúc này, luồng phân phối CDN từ CloudFront qua S3 đã hoàn toàn thông suốt và bảo mật.
+Sau khi lưu thành công, ta sẽ thấy thông báo màu xanh lá cây xác nhận policy đã được cập nhật. Lúc này, luồng phân phối CDN từ CloudFront qua S3 đã hoàn toàn thông suốt và bảo mật.
