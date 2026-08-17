@@ -88,4 +88,4 @@ An e-commerce platform needs to manage millions of historical order records:
 * [GitHub Repository: awslabs/amazon-dynamodb-tools](https://github.com/awslabs/amazon-dynamodb-tools/tree/main/tools/bulk_executor)
 
 
-![Blog](<../../images/3-Blogs/Blog3.png>)
+![Blog](../../images/3-Blogs/Blog3.png)

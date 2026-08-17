@@ -92,4 +92,4 @@ A Serverless E-commerce platform utilizes hundreds of Lambda Functions (Authenti
 
 🔗 **Original Reference Article:** [AWS Compute Blog: Introducing Self-Managed Amazon S3 Buckets for AWS Lambda Function Code](https://aws.amazon.com/blogs/compute/introducing-self-managed-amazon-s3-buckets-for-aws-lambda-function-code/)
 
-![Blog](<../../images/3-Blogs/Blog2.png>)
+![Blog](../../images/3-Blogs/Blog2.png)

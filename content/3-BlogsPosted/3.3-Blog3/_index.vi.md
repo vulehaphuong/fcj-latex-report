@@ -91,4 +91,4 @@ Một hệ thống Thương mại Điện tử muốn xử lý dữ liệu hàng
 * [GitHub Repository: awslabs/amazon-dynamodb-tools](https://github.com/awslabs/amazon-dynamodb-tools/tree/main/tools/bulk_executor)
 
 
-![Blog](<../../../images/3-Blogs/Blog3.png>)
+![Blog](/images/3-Blogs/Blog3.png)

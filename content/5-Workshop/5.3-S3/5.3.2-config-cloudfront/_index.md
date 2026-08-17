@@ -17,7 +17,7 @@ Use Amazon CloudFront as a Content Delivery Network (CDN) to accelerate page loa
    * **Origin access:** Select **Origin access control settings (recommended)**.
    * Click the **Create control setting** button, keep the default parameters in the pop-up, and click **Create**.
 
-![Configure CloudFront OAC](../../../images/5-Workshop/5.3-S3/cloudfront1.png)
+![Configure CloudFront OAC](/images/5-Workshop/5.3-S3/cloudfront1.png)
 
 3. In the **Web Application Firewall (WAF)** section:
    * Select **Do not enable security protections** (to avoid unnecessary costs within the scope of this workshop).
@@ -29,4 +29,4 @@ Use Amazon CloudFront as a Content Delivery Network (CDN) to accelerate page loa
 * Click the **Copy policy** button (or copy the JSON code block displayed on the screen). We will temporarily save this code and use it in the next step (5.3.3) to formally grant CloudFront access to the S3 bucket.
 
 In case you don't see it, we can go to Origins -> Edit. Create OAC for our S3 bucket and click on **Copy Policies**
-![Copy S3 Bucket Policy](../../../images/5-Workshop/5.3-S3/cloudfront2.png)
+![Copy S3 Bucket Policy](/images/5-Workshop/5.3-S3/cloudfront2.png)

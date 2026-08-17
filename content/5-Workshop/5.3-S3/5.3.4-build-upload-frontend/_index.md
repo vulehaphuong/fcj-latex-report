@@ -30,11 +30,11 @@ The Frontend source code (React/Vite) must be compiled (built) into static files
    * *Important note: You must upload the files inside, not the `dist` folder itself. Ensure the `index.html` file is located at the absolute root of the bucket.*
    * Scroll to the bottom and click the **Upload** button. Wait a few moments for the upload process to finish, then click **Close**.
 
-![Upload files to S3](../../../images/5-Workshop/5.3-S3/s3-upload-files.png)
+![Upload files to S3](/images/5-Workshop/5.3-S3/s3-upload-files.png)
 
 3. **Verify the result:**
    * Open the **CloudFront** service on the AWS Console.
    * Find the Distribution you created in step 5.3.2 and copy the URL from the **Domain name** column (e.g., `d123456...cloudfront.net`).
    * Open a new tab in your browser and paste this URL. You should see your Frontend website loading quickly and securely over HTTPS!
 
-![Test CloudFront Domain](../../../images/5-Workshop/5.3-S3/cloudfront-test.png)
+![Test CloudFront Domain](/images/5-Workshop/5.3-S3/cloudfront-test.png)

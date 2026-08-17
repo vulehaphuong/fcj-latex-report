@@ -16,12 +16,12 @@ Although CloudFront has been configured with OAC to access S3 securely, the S3 B
 3. Switch to the **Permissions** tab.
 4. Scroll down to the **Bucket policy** section and click the **Edit** button.
 
-![Edit S3 Bucket Policy](../../../images/5-Workshop/5.3-S3/s3-policy-edit.png)
+![Edit S3 Bucket Policy](/images/5-Workshop/5.3-S3/s3-policy-edit.png)
 
 5. In the **Policy** editor box, delete any existing content (if any) and **Paste** the JSON code that you copied from CloudFront in step 5.3.2.
 
 6. Scroll down to the bottom of the page and click the **Save changes** button.
 
-![Paste Policy and Save](../../../images/5-Workshop/5.3-S3/s3-policy-save.png)
+![Paste Policy and Save](/images/5-Workshop/5.3-S3/s3-policy-save.png)
 
 Once successfully saved, you will see a green confirmation message indicating the policy has been updated. At this point, the CDN delivery flow from CloudFront to S3 is completely clear and secure.
