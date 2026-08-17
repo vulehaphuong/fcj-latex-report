@@ -8,8 +8,6 @@ pre: " <b> 5.5.5. </b> "
 
 In this section, we validate the operational observability of our Serverless backend architecture using **Amazon CloudWatch**, focusing on **CloudWatch Logs** and **CloudWatch Metrics / Alarms**.
 
----
-
 #### 1. Verifying Execution Traces on CloudWatch Logs
 
 * **Execution Steps:**
@@ -21,8 +19,6 @@ In this section, we validate the operational observability of our Serverless bac
 
 ![CloudWatch Log Stream Tracing](/images/5-Workshop/5.5-testing/08-cloudwatch-logs.jpg)
 
----
-
 #### 2. Inspecting Operational Metrics
 
 * **Execution Steps:**
@@ -33,8 +29,6 @@ In this section, we validate the operational observability of our Serverless bac
   * Graphs reflect real-time request traffic accurately with 100% success rate.
 
 ![Lambda Metrics Dashboard](/images/5-Workshop/5.5-testing/09-cloudwatch-metrics.jpg)
-
----
 
 #### 3. Verifying Billing Alarms
 

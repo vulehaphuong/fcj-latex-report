@@ -31,8 +31,6 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 | 11 | **Contribution to project/team** | Work effectiveness, completing 8 User Story Epics, technical knowledge sharing | ☐ | ✅ | ☐ |
 | 12 | **Overall** | General evaluation of the entire 12-week internship period | ☐ | ✅ | ☐ |
 
----
-
 ### Needing Improvement
 
 * Enhance technical communication and active discussion with mentors and colleagues.

@@ -32,8 +32,6 @@ Về tác phong, tôi luôn cố hoàn thành đúng nhiệm vụ, tuân thủ n
 | 11 | **Đóng góp vào dự án/tổ chức** | Hiệu quả công việc cao, hoàn thành 8 Epics User Stories, có bài viết chia sẻ giá trị cho cộng đồng | ☐ | ✅ | ☐ |
 | 12 | **Tổng thể** | Đánh giá chung về toàn bộ quá trình thực tập 12 tuần | ☐ | ✅ | ☐ |
 
----
-
 ### Cần cải thiện
 
 * Nâng cao giao tiếp kỹ thuật và chủ động trao đổi với người hướng dẫn cùng đồng nghiệp.

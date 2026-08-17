@@ -13,8 +13,6 @@ includeInReport: false
 
 > Tại đây, tôi xin chia sẻ một số góc nhìn và cảm nhận cá nhân về trải nghiệm thực tế trong suốt 12 tuần tham gia chương trình First Cloud AI Journey (FCAJ):
 
----
-
 ### Đánh giá chung
 
 **1. Môi trường làm việc** Môi trường làm việc tại FCAJ rất thân thiện, cởi mở và năng động. Các thành viên luôn sẵn sàng hỗ trợ, giải đáp thắc mắc mỗi khi gặp khó khăn kỹ thuật, kể cả ngoài giờ làm việc. Không gian làm việc chuyên nghiệp, thoải mái giúp tôi giữ được sự tập trung cao độ trong quá trình tự nghiên cứu và triển khai dự án.
@@ -29,20 +27,10 @@ includeInReport: false
 
 **6. Chính sách / Phúc lợi cho thực tập sinh** Chương trình cung cấp thời gian làm việc linh hoạt, giúp sinh viên cân bằng tốt giữa việc học trên trường nếu có đăng ký học kỳ hè và làm việc tại công ty. Việc được tham gia các buổi chia sẻ kỹ thuật thường niên vào thứ bảy là một điểm cộng rất lớn, tôi đã được biết thêm rất nhiều kiến thức thú vị và thiết thự ở đó.
 
----
-
-### Một số câu hỏi bổ sung
+### Một số câu hỏi bổ sung từ doanh nghiệp
 
 * **Điều bạn hài lòng nhất trong thời gian thực tập?** Điều tôi hài lòng nhất là được tự tay thiết kế, lập trình và triển khai hoàn chỉnh một  dự án thực tế từ đầu đến cuối trên hạ tầng AWS, một nền tảng mà trước đây tôi chưa từng nghĩ sẽ sử dụng vì quan ngại vấn đề tài chính.
 
-* **Điều bạn nghĩ công ty cần cải thiện cho các thực tập sinh sau?** Tôi nghĩ chương trình có thể tổ chức thêm các buổi giao lưu trực tiếp dưới hình thức thi đấu như dạo gần đây giữa các bạn thực tập sinh để tăng tính kết nối và học hỏi lẫn nhau hoặc các buổi Workshop mang tính thực hành.
+* **Điều bạn nghĩ công ty cần cải thiện cho các thực tập sinh sau?** Tôi nghĩ chương trình có thể tổ chức thêm các buổi giao lưu trực tiếp dưới hình thức thi đấu như dạo gần đây giữa các bạn thực tập sinh để tăng tính kết nối và học hỏi lẫn nhau hoặc các buổi Workshop mang tính thực hành. Cần cải thiện hệ thống đăng ký lên văn phòng, hiện tại kết quả xét duyệt trả về ngay trước đó chỉ khoảng 12 tiếng. Việc này gây khó khăn trong việc sắp xếp thời gian khi mà chỉ biết được mình có được lên văn phòng hay không vào ngay tối hôm trước đó.
 
-* **Nếu giới thiệu cho bạn bè, bạn có khuyên họ thực tập ở đây không? Vì sao?** Tôi chắc chắn sẽ giới thiệu bạn bè đăng ký thực tập tại FCAJ. Đây là môi trường thực tập Cloud bài bản, có lộ trình rõ ràng, mentor rất tích cực và giúp sinh viên tích lũy được dự án Cloud thực chiến rất giá trị cho CV. Nếu đủ giỏi và năng động thì cũng có khả năng nhận được sự đề cử của các mentor, tạo điều kiện phát triển lớn.
-
----
-
-### Đề xuất & Mong muốn
-
-* **Đề xuất cải thiện trải nghiệm:** Nên đưa các cảnh báo trước về những bài lab và các dịch vụ gây tiêu tốn nhiều chi phí kèm hướng dẫn xử lý sự cố khi xảy ra lên đầu lộ trình tìm hiểu AWS.
-* **Mong muốn tương lai:** Tôi rất mong muốn tiếp tục đồng hành cùng chương trình FCAJ trong tương lai, tôi thấy vẫn còn nhiều thứ để học hỏi.
-* **Góp ý khác:** Chân thành cảm ơn Ban tổ chức FCAJ, các anh chị mentor/admin đã tạo ra một chương trình thực tập vô cùng ý nghĩa và giá trị.
+* **Nếu giới thiệu cho bạn bè, bạn có khuyên họ thực tập ở đây không? Vì sao?** Tôi sẽ giới thiệu bạn bè đăng ký thực tập tại FCAJ. Đây là môi trường thực tập Cloud bài bản, có lộ trình rõ ràng, mentor rất tích cực và giúp sinh viên tích lũy được dự án về Cloud. Nếu đủ giỏi và năng động thì cũng có khả năng nhận được sự đề cử của các mentor, tạo điều kiện phát triển lớn.

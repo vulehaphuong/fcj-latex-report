@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 5.5.5. </b> "
 ---
 
-Trong phần này, chúng ta tiến hành kiểm thử khả năng vận hành và giám sát hệ thống Serverless thông qua **Amazon CloudWatch**, bao gồm **CloudWatch Logs** và **CloudWatch Metrics / Alarms**.
-
----
+Trong phần này, chúng ta tiến hành kiểm thử khả năng vận hành và giám sát hệ thống Serverless thông qua **Amazon CloudWatch**, bao gồm **CloudWatch Logs** và **CloudWatch Metrics / Alarms**
 
 #### 1. Kiểm thử Luồng Ghi vết Log trên CloudWatch Logs
 
@@ -21,8 +19,6 @@ Trong phần này, chúng ta tiến hành kiểm thử khả năng vận hành v
 
 ![Kiểm tra Log Stream trên CloudWatch Logs](/images/5-Workshop/5.5-testing/08-cloudwatch-logs.jpg)
 
----
-
 #### 2. Kiểm tra Biểu đồ Chỉ số Hiệu năng (CloudWatch Metrics)
 
 * **Các bước thực hiện:**
@@ -33,8 +29,6 @@ Trong phần này, chúng ta tiến hành kiểm thử khả năng vận hành v
   * Biểu đồ hiển thị trực quan lưu lượng truy cập hệ thống với tỷ lệ thành công 100%.
 
 ![Quan sát Metrics của Lambda](/images/5-Workshop/5.5-testing/09-cloudwatch-metrics.jpg)
-
----
 
 #### 3. Kiểm tra Cảnh báo Cước phí (CloudWatch Billing Alarm)
 

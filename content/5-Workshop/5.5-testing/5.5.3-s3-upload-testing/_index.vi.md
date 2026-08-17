@@ -8,8 +8,6 @@ pre: " <b> 5.5.3. </b> "
 
 Trong mục này, chúng ta tiến hành kiểm thử tính năng tải tệp/hình ảnh đính kèm cho ghi chú thông qua cơ chế **S3 Presigned URL**. Giải pháp này cho phép Trình duyệt Client tải tệp nhị phân trực tiếp lên Amazon S3 mà không cần thông qua hàm Backend Lambda, giúp tối ưu băng thông và giảm độ trễ xử lý.
 
----
-
 #### 1. Quy trình Kiểm thử Tải tệp đính kèm
 
 1. **Thao tác trên Giao diện Web:**
@@ -20,8 +18,6 @@ Trong mục này, chúng ta tiến hành kiểm thử tính năng tải tệp/h�
 2. **Tải tệp trực tiếp lên S3:**
    * Trình duyệt sử dụng Presigned URL vừa nhận được và gửi phương thức HTTP `PUT` mang dữ liệu hình ảnh trực tiếp tới **S3 Attachments Bucket**.
    * Request hoàn tất thành công với HTTP Status Code **`200 OK`**.
-
----
 
 #### 2. Xác minh Lưu trữ Tệp trên Amazon S3 Console
 

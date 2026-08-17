@@ -9,7 +9,6 @@ pre: " <b> 7. </b> "
 
 > Here, I would like to share some personal perspectives and feelings about my practical experience during the 12-week First Cloud AI Journey (FCAJ) program. Hope this will help the FCAJ team improve any shortcomings based on the following aspects:
 
----
 
 ### Overall Evaluation
 
@@ -25,8 +24,6 @@ pre: " <b> 7. </b> "
 
 **6. Internship Policies / Benefits** The program offers flexible working hours, allowing students to balance university studies during summer semesters with company work. Participating in Saturday technical sharing sessions was a major highlight, exposing me to practical and engaging industry knowledge.
 
----
-
 ### Additional Questions
 
 * **What did you find most satisfying during your internship?** What satisfied me most was designing, programming, and fully deploying an end-to-end real-world project on AWS infrastructure—a platform I previously hesitated to use due to cost concerns.
@@ -34,8 +31,6 @@ pre: " <b> 7. </b> "
 * **What do you think the company should improve for future interns?** I suggest organizing more interactive activities or friendly competitions among interns to strengthen networking and mutual learning, as well as conducting more hands-on technical workshops.
 
 * **If recommending to a friend, would you suggest they intern here? Why or why not?** I would definitely recommend FCAJ to my friends. It is a well-structured Cloud internship environment with a clear roadmap, highly supportive mentors, and valuable real-world Cloud projects for building a strong CV. Proactive and capable interns also have opportunities to receive mentor recommendations for career advancement.
-
----
 
 ### Suggestions & Expectations
 

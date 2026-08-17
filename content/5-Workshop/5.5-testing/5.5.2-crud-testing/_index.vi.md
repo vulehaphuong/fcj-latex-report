@@ -8,8 +8,6 @@ pre: " <b> 5.5.2. </b> "
 
 Trong mục này, chúng ta tiến hành kiểm thử các thao tác CRUD (Create, Read, Update, Delete) cho công việc và ghi chú trực tiếp trên giao diện Web UI, đồng thời xác minh trạng thái đồng bộ dữ liệu tại cơ sở dữ liệu Amazon DynamoDB.
 
----
-
 #### 1. Kiểm thử Thao tác CRUD trên Giao diện Web UI (Kanban Board)
 
 * **Các bước thực hiện:**
@@ -24,8 +22,6 @@ Trong mục này, chúng ta tiến hành kiểm thử các thao tác CRUD (Creat
   * Các yêu cầu HTTP `POST /tasks`, `PUT /tasks/{id}`, `DELETE /tasks/{id}` gửi đến API Gateway trả về HTTP Status Code **`200 OK`** hoặc **`201 Created`**.
 
 ![Thao tác CRUD trên Web UI](/images/5-Workshop/5.5-testing/03-crud-kanban.jpg)
-
----
 
 #### 2. Xác minh Dữ liệu Lưu trữ tại Amazon DynamoDB Table
 

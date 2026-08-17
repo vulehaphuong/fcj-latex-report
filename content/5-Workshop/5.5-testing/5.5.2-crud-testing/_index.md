@@ -8,8 +8,6 @@ pre: " <b> 5.5.2. </b> "
 
 In this section, we conduct end-to-end testing for all CRUD (Create, Read, Update, Delete) operations on tasks and notes directly through the Web UI, and verify real-time data persistence inside the Amazon DynamoDB database.
 
----
-
 #### 1. Testing Web UI CRUD Operations & Kanban Board Drag-and-Drop
 
 * **Execution Steps:**
@@ -24,8 +22,6 @@ In this section, we conduct end-to-end testing for all CRUD (Create, Read, Updat
   * Backend API Gateway calls (`POST /tasks`, `PUT /tasks/{id}`, `DELETE /tasks/{id}`) respond with HTTP Status Code **`200 OK`** or **`201 Created`**.
 
 ![Web UI CRUD Operations](/images/5-Workshop/5.5-testing/03-crud-kanban.jpg)
-
----
 
 #### 2. Amazon DynamoDB Data State Verification
 

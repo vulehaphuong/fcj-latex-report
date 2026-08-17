@@ -8,8 +8,6 @@ pre: " <b> 5.5.4. </b> "
 
 Trong phần này, chúng ta tiến hành kiểm thử tính an toàn của hệ thống tại tầng **Amazon API Gateway** bằng cách xác minh cơ chế **Cognito JWT Authorizer** (chặn truy cập không hợp lệ) và kiểm tra cấu hình **CORS (Cross-Origin Resource Sharing)**.
 
----
-
 #### 1. Kiểm thử Chặn Truy cập Trái phép (401 Unauthorized)
 
 * **Các bước thực hiện:**
@@ -21,8 +19,6 @@ Trong phần này, chúng ta tiến hành kiểm thử tính an toàn của hệ
   * Trả về HTTP Status Code **`401 Unauthorized`**.
 
 ![Kiểm thử 401 Unauthorized trên Postman](/images/5-Workshop/5.5-testing/06-api-unauthorized.jpg)
-
----
 
 #### 2. Kiểm thử Cấu hình CORS (Cross-Origin Resource Sharing)
 

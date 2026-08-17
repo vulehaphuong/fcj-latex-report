@@ -8,8 +8,6 @@ pre: " <b> 5.5.4. </b> "
 
 In this section, we validate the security controls at the **Amazon API Gateway** layer by verifying the **Cognito JWT Authorizer** mechanism (rejecting unauthorized requests) and inspecting **CORS (Cross-Origin Resource Sharing)** headers.
 
----
-
 #### 1. Testing Unauthorized Access Rejection (401 Unauthorized)
 
 * **Execution Steps:**
@@ -21,8 +19,6 @@ In this section, we validate the security controls at the **Amazon API Gateway**
   * Responds with HTTP Status **`401 Unauthorized`**.
 
 ![401 Unauthorized Test Result](/images/5-Workshop/5.5-testing/06-api-unauthorized.jpg)
-
----
 
 #### 2. Testing CORS Header Negotiation
 

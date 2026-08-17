@@ -8,8 +8,6 @@ pre: " <b> 5.5.3. </b> "
 
 In this section, we validate the attachment upload feature using **S3 Presigned URLs**. This architectural pattern empowers browser clients to stream image binaries directly to Amazon S3 without routing heavy payloads through backend Lambda functions, significantly reducing compute latency and bandwidth overhead.
 
----
-
 #### 1. Attachment Upload Execution Steps
 
 1. **Web UI Interaction:**
@@ -20,8 +18,6 @@ In this section, we validate the attachment upload feature using **S3 Presigned 
 2. **Direct Binary Stream to S3:**
    * The browser client uses the generated presigned URL to issue an HTTP `PUT` request transferring the raw image binary directly to the **S3 Attachments Bucket**.
    * The upload completes with HTTP Status Code **`200 OK`**.
-
----
 
 #### 2. Amazon S3 Console Object State Verification
 
