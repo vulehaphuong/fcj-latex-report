@@ -11,7 +11,7 @@ LUA_FILTER = os.path.join("scripts", "hugo-notice.lua")
 
 SECTION_TITLES_VI = {
     "1-Worklog": "Nhật ký công việc",
-    "2-Proposal": "Đề xuất",
+    "2-Proposal": "Đề xuất dự án",
     "3-BlogsPosted": "Các bài blogs đã đăng",
     "4-EventParticipated": "Các sự kiện đã tham gia",
     "5-Workshop": "Workshop",

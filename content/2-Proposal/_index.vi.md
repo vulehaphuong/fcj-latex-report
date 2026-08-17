@@ -24,8 +24,6 @@ reportHeadings:
 ### 1. Tóm tắt Dự án (Executive Summary)
 Dự án **Serverless Todo/Note Web Application** được thiết kế nhằm cung cấp một nền tảng quản lý công việc và ghi chú cá nhân hiện đại, linh hoạt và bảo mật. Ứng dụng ứng dụng hoàn toàn kiến trúc **AWS Serverless** (không máy chủ) giúp hệ thống tự động mở rộng theo lưu lượng truy cập, tối ưu hóa chi phí vận hành ở mức gần như bằng 0 khi không sử dụng và loại bỏ hoàn toàn gánh nặng quản trị hạ tầng server truyền thống.
 
----
-
 ### 2. Đặt vấn đề & Giải pháp (Problem Statement)
 
 #### Vấn đề hiện tại
