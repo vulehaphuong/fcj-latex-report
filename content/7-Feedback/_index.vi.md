@@ -4,6 +4,9 @@ date: 2026-07-30
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
+
+# Tùy chỉnh cho bản in PDF
+includeInReport: false
 ---
 
 

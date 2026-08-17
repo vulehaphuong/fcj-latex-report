@@ -9,12 +9,8 @@ pre: " <b> 2. </b> "
 # Serverless Todo/Note Web Application on AWS
 ## A Modern Personal Productivity Platform Powered by AWS Serverless Architecture
 
----
-
 ### 1. Executive Summary
 The **Serverless Todo/Note Web Application** project is designed to provide a modern, highly flexible, and secure personal task and note management platform. By fully leveraging **AWS Serverless architecture**, the system automatically scales with traffic, optimizes operational costs to near zero when idle, and completely eliminates the overhead of managing traditional server infrastructure.
-
----
 
 ### 2. Problem Statement
 
@@ -33,8 +29,6 @@ A full-stack Serverless Web Application built on AWS:
 #### Benefits & Return on Investment (ROI)
 * **Cost-Efficient:** Maximizes the AWS Free Tier benefits (1M Lambda requests/month, 25 GB DynamoDB, 5 GB S3, 1 TB CloudFront), keeping monthly costs between $0.00 and $0.50 USD.
 * **High Availability & Auto Scaling:** Seamlessly scales from 1 to thousands of concurrent users without manual server scaling configuration.
-
----
 
 ### 3. Solution Architecture
 
@@ -61,8 +55,6 @@ The application is structured into 7 core layers as illustrated in the architect
    * **AWS IAM:** Enforces access control following the Principle of Least Privilege.
    * **AWS Budgets:** Configures threshold billing alerts for cost monitoring.
 
----
-
 ### 4. Technical Implementation
 
 #### Key Features (8 User Story Epics)
@@ -74,8 +66,6 @@ The application is structured into 7 core layers as illustrated in the architect
 6. **Custom Workflow:** Customize status columns, assign colors, drag-and-drop cards on Kanban Board.
 7. **Import / Export:** Export and import task data via JSON/CSV files or Copy/Paste buffer.
 8. **Statistics:** Total task metrics, distribution charts by Category, Status, Tag, and time trends.
-
----
 
 ### 5. Timeline & Milestones
 
@@ -94,8 +84,6 @@ The project is executed across the **12-week internship period** (from **June 03
   * **Week 11:** Execute End-to-End testing across all 8 User Story Epics, audit IAM Roles, and document Clean-up steps.
   * **Week 12:** Author step-by-step Technical Workshop documentation and finalize Hugo Bilingual Report.
 
----
-
 ### 6. Budget Estimation
 
 All utilized services fall well within the **AWS Free Tier** allocation:
@@ -108,8 +96,6 @@ All utilized services fall well within the **AWS Free Tier** allocation:
 
 **Total Estimated Monthly Cost:** **$0.00 USD/month** (Max **$0.50 USD/month** for minimal overages).
 
----
-
 ### 7. Risk Assessment
 
 | Risk Description | Severity | Mitigation Strategy |
@@ -118,8 +104,6 @@ All utilized services fall well within the **AWS Free Tier** allocation:
 | **Auth Token Drop / Session Eviction** | Medium | Align Cognito ID Token usage with Authorization Headers stored in Frontend LocalStorage. |
 | **Public S3 Data Exposure** | High | Enable S3 Block Public Access, KMS Encryption, and restrict uploads to short-lived Presigned URLs. |
 | **Unexpected AWS Billings** | Low | Setup AWS Budgets alerts to trigger email notifications at $1.00 USD threshold. |
-
----
 
 ### 8. Expected Outcomes
 * **Functional Deliverable:** A fully working Serverless Todo/Note Web Application deployed on CloudFront HTTPS covering all 8 User Story Epics.

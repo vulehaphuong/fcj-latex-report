@@ -128,6 +128,12 @@ captionpos=b,
 
 \thesislayout
 
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
 \begin{document}
 
 \begin{titlepage}
@@ -139,53 +145,62 @@ captionpos=b,
     ($ (current page.south east) + (-0.45in,0.55in) $);
 \end{tikzpicture}
 
+\centering
 \begin{center}
-\Large \textbf{ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH} \\
-\vspace{0.2cm}
-\Large \textbf{TRƯỜNG ĐẠI HỌC BÁCH KHOA} \\
-\vspace{0.2cm}
-\Large \textbf{KHOA KHOA HỌC VÀ KĨ THUẬT MÁY TÍNH}
-\end{center}
+% Phần tiêu đề trường và khoa (Size 15)
+{\fontsize{15pt}{18pt}\selectfont 
+\textbf{ĐẠI HỌC QUỐC GIA TP.HCM}\\
+\textbf{TRƯỜNG ĐẠI HỌC BÁCH KHOA}\\
+\textbf{KHOA KHOA HỌC VÀ KỸ THUẬT MÁY TÍNH}\par}
+\vspace{1.5cm}
 
-\vspace{0.3cm}
+% \vspace{0.3cm}
 
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=4cm]{Images/hcmut.png}
-\end{center}
-\end{figure}
+% Logo trường
+\includegraphics[width=0.3\textwidth]{Images/hcmut.png}\par
+\vspace{2cm}
 
-\begin{center}
-\begin{tabular}{c}
-\multicolumn{1}{c}{\textbf{{\LARGE BÁO CÁO}}}\\
-\\{\textbf{{\LARGE THỰC TẬP NGOÀI TRƯỜNG}}}
-\\
-\\
-\textbf{\Large HỌC KỲ 252 NĂM HỌC 2025-2026} \\
-\end{tabular}
-\end{center}
+% Tên báo cáo và mã môn học (Size 18)
+{\fontsize{18pt}{22pt}\selectfont 
+\textbf{BÁO CÁO MÔN HỌC}\\
+\textbf{THỰC TẬP NGOÀI TRƯỜNG}\\
+\textbf{(Mã số môn học: CO3335)}\par}
 \vspace{0.5cm}
-\begin{itemize}
-\renewcommand\labelitemi{--}
-    \item \Large \textbf{NGÀNH: KHOA HỌC MÁY TÍNH}
-    \item \Large \textbf{CHƯƠNG TRÌNH ĐÀO TẠO: CHÍNH QUY}
-\end{itemize}
-\vspace{0.7cm}
-\begin{itemize}
-\renewcommand\labelitemi{--}
-    \item \Large \textbf{ĐƠN VỊ/ DOANH NGHIỆP NHẬN THỰC TẬP:}
-    \\ \Large \textbf{Công ty TNHH Amazon Web Services Việt Nam}
-    \item \Large \textbf{CÁN BỘ HƯỚNG DẪN CHUYÊN MÔN TRỰC TIẾP CỦA ĐƠN VỊ/ DOANH NGHIỆP:}
-    \\ \Large \textbf{Lữ Hoàn Thiện - Program Manager}
-    \item \Large \textbf{CÁN BỘ HƯỚNG DẪN/ GIÁM SÁT/ CHẤM ĐIỂM BÁO CÁO CỦA KHOA (CBHD/CBGS/CĐBC):}
-    \\ \Large \textbf{Lê Thị Bảo Thu}
-    \item \Large \textbf{SINH VIÊN THỰC HIỆN (SVTH):}
-    \\ \Large \textbf{HỌ VÀ TÊN: Vũ Lê Hà Phương } \textbf{MSSV: 2312765}
-\end{itemize}
+
+% Học kỳ, năm học (Size 15)
+{\fontsize{15pt}{18pt}\selectfont \textbf{HỌC KỲ 252 NĂM HỌC 2025-2026}\par}
+{\fontsize{15pt}{18pt}\selectfont \textit{\textcolor{red}{(Đăng kí môn học thành công)}}\par}
+\vspace{2cm}
+
+% Bắt đầu căn trái cho nửa dưới của bìa
+% Thông tin sinh viên (Size 15)
+\begin{flushleft}
+    {\fontsize{15pt}{18pt}\selectfont
+    - \textbf{NGÀNH:} KHOA HỌC MÁY TÍNH \\
+    - \textbf{CHƯƠNG TRÌNH ĐÀO TẠO:} CHÍNH QUY \\
+    }
+\end{flushleft}
+\vspace{1.5cm}
+
+% Thông tin công ty và cán bộ (Size 15)
+\begin{flushleft}
+    {\fontsize{15pt}{18pt}\selectfont 
+    - \textbf{ĐƠN VỊ/ DOANH NGHIỆP NHẬN THỰC TẬP:}\\
+    Công ty TNHH Amazon Web Services Việt Nam\\
+    \vspace{0.3cm}
+    - \textbf{CÁN BỘ HƯỚNG DẪN CHUYÊN MÔN TRỰC TIẾP CỦA ĐƠN VỊ/ DOANH NGHIỆP:}\\
+    Lữ Hoàn Thiện - Program Manager\\
+    \vspace{0.3cm}
+    - \textbf{CÁN BỘ HỖ TRỢ HƯỚNG DẪN/ GIÁM SÁT/ CHẤM ĐIỂM BÁO CÁO CỦA KHOA (CBHT HD/GS/CĐBC):}\\
+    Lê Thị Bảo Thu\\
+    }
+\end{flushleft}
+
 \vspace{0.5cm}
 \begin{center}
 {\Large TP. Hồ Chí Minh, Tháng 08/2026}
 \end{center}
+\vfill
 \end{titlepage}
 
 \newpage

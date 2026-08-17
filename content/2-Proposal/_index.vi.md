@@ -1,5 +1,5 @@
 ---
-title: "Đề xuất dự án"
+title: "Tổng quan dự án và hướng phát triển"
 date: 2026-06-03
 weight: 2
 chapter: false
@@ -20,8 +20,6 @@ reportHeadings:
 
 # Serverless Todo/Note Web Application on AWS
 ## Giải pháp Quản lý Công việc & Ghi chú Thông minh dựa trên Kiến trúc Serverless AWS
-
----
 
 ### 1. Tóm tắt Dự án (Executive Summary)
 Dự án **Serverless Todo/Note Web Application** được thiết kế nhằm cung cấp một nền tảng quản lý công việc và ghi chú cá nhân hiện đại, linh hoạt và bảo mật. Ứng dụng ứng dụng hoàn toàn kiến trúc **AWS Serverless** (không máy chủ) giúp hệ thống tự động mở rộng theo lưu lượng truy cập, tối ưu hóa chi phí vận hành ở mức gần như bằng 0 khi không sử dụng và loại bỏ hoàn toàn gánh nặng quản trị hạ tầng server truyền thống.
@@ -46,13 +44,13 @@ Xây dựng ứng dụng Web dựa trên kiến trúc Serverless toàn diện tr
 * **Chi phí tối ưu:** Tận dụng tối đa gói AWS Free Tier (1 triệu request Lambda/tháng, 25 GB DynamoDB, 5 GB S3, 1 TB CloudFront), chi phí duy trì hàng tháng chỉ khoảng $0.00 – $0.50 USD.
 * **Sẵn sàng cao & Tự động mở rộng:** Hệ thống tự động đáp ứng từ 1 đến hàng ngàn người dùng đồng thời mà không cần cấu hình Auto Scaling phức tạp.
 
----
-
 ### 3. Kiến trúc Giải pháp (Solution Architecture)
 
 Ứng dụng chia làm 7 tầng dịch vụ chính theo đúng sơ đồ kiến trúc hệ thống:
 
+
 ![Serverless Todo/Note Architecture](/images/2-Proposal/architecture_diagram.png)
+
 
 #### Các dịch vụ AWS sử dụng
 1. **Client Layer:** Trình duyệt người dùng (User Browser).
@@ -73,8 +71,6 @@ Xây dựng ứng dụng Web dựa trên kiến trúc Serverless toàn diện tr
    * **AWS IAM:** Quản lý phân quyền truy cập theo nguyên tắc Quyền tối thiểu (Least-privilege roles).
    * **AWS Budgets:** Thiết lập hạn mức cảnh báo chi phí tài nguyên (Billing alerts).
 
----
-
 ### 4. Yêu cầu & Bối cảnh Kỹ thuật (Technical Implementation)
 
 #### Các tính năng chính (8 Epics User Stories)
@@ -86,8 +82,6 @@ Xây dựng ứng dụng Web dựa trên kiến trúc Serverless toàn diện tr
 6. **Custom Workflow:** Tùy chỉnh cột trạng thái, màu sắc, kéo-thả thẻ (Drag-and-Drop) trên Kanban Board.
 7. **Import / Export:** Trích xuất và nhập dữ liệu công việc từ file JSON/CSV hoặc nội dung Copy/Paste.
 8. **Statistics:** Thống kê tổng số công việc, phân bổ theo Danh mục, Trạng thái, Tag và biểu đồ thời gian.
-
----
 
 ### 5. Lộ trình Triển khai (Timeline & Milestones)
 
@@ -105,8 +99,6 @@ Dự án được thực hiện trong **12 tuần thực tập** (từ **03/06/2
   * **Tuần 11:** Kiểm thử End-to-End toàn bộ 8 Epics User Stories, rà soát IAM Roles và lập quy trình Clean-up.
   * **Tuần 12:** Viết tài liệu hướng dẫn kỹ thuật Step-by-Step (Workshop) và hoàn thiện Báo cáo Hugo song ngữ.
 
----
-
 ### 6. Dự toán Ngân sách (Budget Estimation)
 
 Toàn bộ tài nguyên sử dụng nằm trong phạm vi **AWS Free Tier**:
@@ -119,8 +111,6 @@ Toàn bộ tài nguyên sử dụng nằm trong phạm vi **AWS Free Tier**:
 
 **Tổng chi phí dự kiến:** **$0.00 USD/tháng** (Tối đa không quá **$0.50 USD/tháng** nếu vượt Free Tier nhẹ).
 
----
-
 ### 7. Đánh giá & Quản trị Rủi ro (Risk Assessment)
 
 | Rủi ro kỹ thuật | Mức độ | Biện pháp khắc phục & Phòng ngừa |
@@ -129,8 +119,6 @@ Toàn bộ tài nguyên sử dụng nằm trong phạm vi **AWS Free Tier**:
 | **Lỗi xác thực Token / Bị văng khỏi phiên** | Rõ ràng | Đảm bảo đồng bộ giữa Cognito ID Token và Authorization Header ở Frontend LocalStorage. |
 | **Rò rỉ dữ liệu S3 Bucket** | Cao | Cấu hình S3 Block Public Access, bật KMS Encryption và chỉ cho phép upload qua Presigned URL thời hạn ngắn. |
 | **Phát sinh chi phí ngoài ý muốn** | Thấp | Cấu hình AWS Budgets gửi email cảnh báo khi chi phí chạm mốc $1.00 USD. |
-
----
 
 ### 8. Kết quả Mong đợi (Expected Outcomes)
 * **Sản phẩm hoàn thiện:** Một ứng dụng Web Serverless Todo/Note chạy thực tế trên CloudFront HTTPS với đầy đủ 8 Epics chức năng.

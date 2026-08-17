@@ -6,7 +6,9 @@ chapter: false
 pre: " <b> 1. </b> "
 
 # Các tùy chọn cho bản PDF LaTeX
-includeInReport: false
+includeInReport: true
+reportHeadings:
+    - "Nhật ký công việc"
 ---
 
 

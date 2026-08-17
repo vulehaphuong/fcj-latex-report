@@ -1,12 +1,16 @@
 ---
-title: "Workshop"
+title: "Workshop - Dự án thực hiện"
 date: 2026-07-31
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 
 # Tùy chỉnh cho bản in PDF
-includeInReport: false
+includeInReport: true
+reportHeadings:
+    - "Workshop - Dự án thực hiện"
+    - Xây dựng và triển khai ứng dụng Todo serverless trên AWS
+    - Tổng quan
 ---
 
 
@@ -14,7 +18,7 @@ includeInReport: false
 
 #### Tổng quan
 
-Workshop này sẽ hướng dẫn xây dựng và triển khai một ứng dụng web quản lý công việc và ghi chú theo kiến trúc serverless trên AWS. Người dùng có thể đăng ký tài khoản, quản lý hồ sơ, tổ chức công việc bằng trạng thái và danh mục tùy chỉnh, tự động lưu bản nháp, sử dụng bộ lọc, xem thống kê, import hoặc export công việc và tải lên các tệp đính kèm riêng tư.
+Workshop theo yêu cầu từ công ty này sẽ hướng dẫn xây dựng và triển khai một ứng dụng web quản lý công việc và ghi chú theo kiến trúc serverless trên AWS. Người dùng có thể đăng ký tài khoản, quản lý hồ sơ, tổ chức công việc bằng trạng thái và danh mục tùy chỉnh, tự động lưu bản nháp, sử dụng bộ lọc, xem thống kê, import hoặc export công việc và tải lên các tệp đính kèm riêng tư.
 
 Kiến trúc của dự án được chia thành các nhóm dịch vụ sau:
 + **Frontend & Authentication** - Lưu frontend tĩnh trong Amazon S3, phân phối nội dung thông qua Amazon CloudFront và sử dụng Amazon Cognito để đăng ký và xác thực người dùng.
