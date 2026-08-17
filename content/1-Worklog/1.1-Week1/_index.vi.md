@@ -8,13 +8,6 @@ pre: " <b> 1.1. </b> "
 # Các tùy chọn cho bản PDF LaTeX
 includeInReport: true     # Đổi thành false nếu muốn ẩn trang này trong bản in PDF
 
-reportType: worklog       # Kích hoạt script tối ưu bảng cho PDF
-
-reportTableColumns:       # Chọn các cột trong bảng Markdown muốn in ra PDF
-  - Thứ
-  - Công việc
-  - Ngày bắt đầu
-  - Ngày hoàn thành
 
 reportHeadings:           # Chọn các tiêu đề muốn trích xuất ra PDF
   - Mục tiêu tuần 1
