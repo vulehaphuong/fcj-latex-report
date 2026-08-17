@@ -13,7 +13,7 @@ pre: " <b> 1.6. </b> "
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-|--|--------------------------------------------------|--------|--------|
+|--|--------------------------------------------------|--------|---------|
 | 2 | - Study Amazon Cognito (User Pools, Identity Pools, JWT Tokens). \newline - Get temporary backend environment parameters (API URL, Cognito Region, User Pool ID, Client ID). \newline - Add AWS Cognito SDK and integrate into React login flow for Authentication state management. | 07/06/2026 | 07/06/2026 |
 | 3 | - Update environment variables. \newline - Refactor Login/Sign-in logic to authenticate via AWS Cognito User Pool SDK. | 07/07/2026 | 07/07/2026 |
 | 4 | - Integrate RESTful APIs with Backend API endpoints. \newline - Replace Mock Data with live API calls using `VITE_API_URL`. \newline - Integrate APIs for Dashboard, Tasks, Kanban, Calendar, Timeline, Statistics, Saved Filters, Workflow, and Import/Export. | 07/08/2026 | 07/10/2026 |

@@ -22,7 +22,10 @@ Mục tiêu tuần 2:
 * Nắm vững cơ chế quản lý truy cập và bảo mật tài nguyên AWS với IAM.
 * Khai phá hạ tầng mạng riêng ảo Amazon VPC và các thành phần cốt lõi.
 
-Các công việc cần triển khai trong tuần này:
+\noindent Các công việc cần triển khai trong tuần này
+
+\renewcommand{\arraystretch}{1.5} % Tăng khoảng cách trên-dưới (padding dọc)
+\setlength{\tabcolsep}{8pt}       % Tăng khoảng cách trái-phải (padding ngang)
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
@@ -32,7 +35,7 @@ Các công việc cần triển khai trong tuần này:
 | 5 | - Nghiên cứu các loại máy chủ EC2, hình ảnh AMI, đĩa cứng EBS, User Data và Meta Data. \newline - Thực hành: \newline \hspace*{1em} + Dựa theo hướng dẫn hởi tạo Key Pair bảo mật cho kết nối SSH <br>&emsp;  + Viết script User Data tự động cài đặt Web Server Nginx trên máy chủ EC2 | 11/06/2026 | 11/06/2026 |
 | 6 | - Tìm hiểu và thực hành công cụ lập trình AWS Cloud9 cùng VS Code AWS Toolkit. \newline - Cấu hình đĩa lưu trữ cho máy chủ EC2 phục vụ lập trình trên Cloud. | 12/06/2026 | 12/06/2026 |
 
-Kết quả đạt được tuần 2:
+\noindent Kết quả đạt được tuần 2:
 
 * Học hiểu kiến thức về mạng ảo, cách khởi tạo và quản lý máy chủ EC2.
 * Thành lập nhóm, chốt đề tài và xác định công việc.

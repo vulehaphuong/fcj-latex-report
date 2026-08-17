@@ -13,7 +13,7 @@ pre: " <b> 1.5. </b> "
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-|--|--------------------------------------------------|--------|--------|
+|--|--------------------------------------------------|--------|---------|
 | 2 | - Research and implement canvas/whiteboard view for drawing and note-taking. \newline - Build Whiteboard page with Digital Inking tools. | 06/29/2026 | 06/29/2026 |
 | 3 | - Develop Statistics Analytics page with status and timeline breakdown charts. \newline - Implement filter controls by task name, status, and tags. | 06/30/2026 | 06/30/2026 |
 | 4 | - Build Custom Workflow page allowing users to configure workflow stages. \newline - Add quick stage switching and creation controls. | 07/01/2026 | 07/01/2026 |

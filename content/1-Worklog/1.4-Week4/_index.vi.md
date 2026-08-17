@@ -16,15 +16,18 @@ reportHeadings:           # Chọn chính xác các tiêu đề (Heading) muốn
 
 
 
-### Mục tiêu tuần 4:
+Mục tiêu tuần 4:
 
 * Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
 * Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
 
-### Các công việc cần triển khai trong tuần này:
+\noindent Các công việc cần triển khai trong tuần này
+
+\renewcommand{\arraystretch}{1.5} % Tăng khoảng cách trên-dưới (padding dọc)
+\setlength{\tabcolsep}{8pt}       % Tăng khoảng cách trái-phải (padding ngang)
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
-|--|--------------------------------------------------|--------|--------|
+|--|--------------------------------------------------|--------|---------|
 | 2   | - Khởi tạo frontend, cài đặt môi trường, các cong cụ cần thiết \newline - Bắt đầu viết code cho phần Sign-in, main layout, side bar, trang chủ. | 22/06/2026 | 22/06/2026 |
 | 3   | - Tiếp tục code trang hiển thị task dưới dạng danh sách và chức năng tạo task, các lựa chọn bổ  cũng như chỉnh sửa task đã tồn tại. | 23/06/2026 | 24/06/2026 |
 | 4   |  - Tìm hiểu cơ chế kéo thả Drag and Drop trong React. \newline - Tiếp tục code trang hiển thị task dưới cột - Kanban và chức năng thêm cột mới, đổi tên cột, bổ sung nút tạo task mới trực tiếp dưới từng cột, kéo thả task để chuyển/lưu task sang cột khác. | 24/06/2026 | 25/06/2026 |
@@ -32,7 +35,7 @@ reportHeadings:           # Chọn chính xác các tiêu đề (Heading) muốn
 | 6   | - Tìm hiểu cách hiển thị các task được tạo mà đã gán "hạn hoàn thành" dưới dạng Timeline Gantt chart \newline - Xây dựng trang Timeline theo bản thiết kế. \newline - Sửa lỗi và chỉnh sửa lại các trang đã làm trong tuần | 26/06/2026 | 28/06/2026 |
 
 
-### Kết quả đạt được tuần 4:
+\noindent Kết quả đạt được tuần 4:
 
 * Khởi tạo xong cấu trúc frontend - React TypeScript.
 * Hoàn thành việc lập trình giao diện các trang Sign-in, User Settings, Dashboard, Tasks, Kanban, Calendar và Timeline.

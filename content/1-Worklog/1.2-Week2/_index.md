@@ -15,7 +15,7 @@ pre: " <b> 1.2. </b> "
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-|--|--------------------------------------------------|--------|--------|
+|--|--------------------------------------------------|--------|---------|
 | 2 | - Learn the first module "Explore AWS Services" \newline - Hands-on: Create IAM User, grant permissions for accounts by role | 06/08/2026 | 06/08/2026 | https://cloudjourney.awsstudygroup.com/vi/ <br> https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=0ygHrSvIP0XkXxun |
 | 3 | - Learn Amazon VPC overview, Subnets, EC2 Instance, SSH connection, EBS volume. \newline - Hands-on: \newline \hspace*{1em} + Follow guide to customize EC2, NAT Gateway \newline \hspace*{1em} + Configure Site-to-Site \newline \hspace*{1em} + ... \newline \hspace*{1em} + Clean up resources after lab. | 06/09/2026 | 06/09/2026 | https://cloudjourney.awsstudygroup.com/vi/ |
 | 4 | - Form team, agree on topic "Task Management Web Application on Cloud", and define technical architecture direction. \newline - Assign project tasks. | 06/10/2026 | 06/10/2026 | https://cloudjourney.awsstudygroup.com/vi/ |

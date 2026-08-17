@@ -13,7 +13,7 @@ pre: " <b> 1.4. </b> "
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-|--|--------------------------------------------------|--------|--------|
+|--|--------------------------------------------------|--------|---------|
 | 2 | - Initialize frontend repository, environment, and required libraries. \newline - Start coding Sign-in page, main layout, sidebar, home page. | 06/22/2026 | 06/22/2026 |
 | 3 | - Develop Task List page, Task creation form, and Task editing dialogs. | 06/23/2026 | 06/24/2026 |
 | 4 | - Research Drag and Drop implementation in React. \newline - Code Kanban board page: create tasks directly under columns, drag-and-drop tasks between status columns. | 06/24/2026 | 06/25/2026 |
