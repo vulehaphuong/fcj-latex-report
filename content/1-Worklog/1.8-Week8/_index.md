@@ -13,7 +13,7 @@ pre: " <b> 1.8. </b> "
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-|--|--------------------------------------------------|--------|---------|
+|--|------------------------------------------------|--------|-----------|
 | 2 | - Draft Workshop documentation: \newline \hspace*{1em} + Write step-by-step guide on creating a private secure Amazon S3 Bucket. \newline \hspace*{1em} + Write guide on setting up CloudFront and OAC permission policies. | 07/20/2026 | 07/21/2026 |
 | 3 | - Draft Workshop documentation: \newline \hspace*{1em} + Write guide on updating S3 Bucket Policy. \newline \hspace*{1em} + Write guide on building and deploying frontend source code to S3. | 07/21/2026 | 07/22/2026 |
 | 4 | - Finalize Workshop section 5.3 S3. | 07/22/2026 | 07/23/2026 |

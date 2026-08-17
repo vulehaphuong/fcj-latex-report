@@ -22,11 +22,9 @@ Mục tiêu tuần 3:
 
 \noindent Các công việc cần triển khai trong tuần này
 
-\renewcommand{\arraystretch}{1.5} % Tăng khoảng cách trên-dưới (padding dọc)
-\setlength{\tabcolsep}{8pt}       % Tăng khoảng cách trái-phải (padding ngang)
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
-|--|--------------------------------------------------|--------|---------|
+|--|------------------------------------------------|--------|-----------|
 | 2 | - Tìm hiểu ch vụ lưu trữ đối tượng Amazon S3, tính năng Static Website Hosting, cơ chế phân quyền Bucket Policy và cơ chế chia sẻ tài nguyên CORS. \newline - Tìm hiểu mạng phân phối nội dung Amazon CloudFront, cơ chế bộ nhớ đệm Edge Location và phương thức bảo mật chứng chỉ SSL/TLS. \newline - Thực hành: đưa website tĩnh với chức năng ghi nhận thông tin cơ ban lên lưu trữ Amazon S3, kích hoạt Static Website Hosting, cấu hình Bucket Policy và CORS. \newline - Thiết lập Amazon CloudFront Distribution phân phối trang web an toàn qua giao thức HTTPS và kiểm thử khả năng truy cập qua đường dẫn CloudFront.| 15/06/2026 | 15/06/2026 | https://cloudjourney.awsstudygroup.com/ |
 | 3 | - Viết tài liệu phân tích yêu cầu hệ thống cho dự án Quản lý công việc. \newline - Nhóm họp lại, trình bày các bản phân tích yêu cầu hệ thống của mỗi người để thống nhất thành một bản hoản chỉnh cuói cùng | 16/06/2026 | 16/06/2026 |  |
 | 4 | - Tham khảo và bắt đầu thiết kế sơ lược cấu trúc, bố cục và vị trí của các thành phần chính ở giao diện mỗi trang cho website. \newline - Lựa chọn tông màu chủ đạo à tạo trước các thành phần chính. | 17/06/2026 | 17/06/2026 |  |

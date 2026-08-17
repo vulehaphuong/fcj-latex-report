@@ -15,7 +15,7 @@ pre: " <b> 1.1. </b> "
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-|--|--------------------------------------------------|--------|---------|
+|--|------------------------------------------------|--------|-----------|
 | 4 | - Get acquainted with members and admin of FCAJ \newline - Learn internship rules and regulations \newline - Understand internship tasks \newline - Create FCAJ Portal account, update registration info, and register weekly report schedule. | 06/03/2026 | 06/03/2026 |
 | 5 | - Learn about AWS Cloud and basic services: \newline \hspace*{1em} + Compute - EC2/Lambda (Serverless) \newline \hspace*{1em} + Storage - S3 \newline \hspace*{1em} + Networking - VPC/CloudFront \newline \hspace*{1em} + Database - DynamoDB \newline \hspace*{1em} + IAM | 06/04/2026 | 06/04/2026 | 
 | 6 | - Review policies, terms & risks when using AWS. \newline - Create AWS Free Tier account \newline - Learn about AWS Console & AWS CLI \newline - **Hands-on:** \newline \hspace*{1em} + Set up cost alerts, configure AWS Budgets for cost control. \newline \hspace*{1em} + Install & configure AWS CLI for basic operations. | 06/05/2026 | 06/05/2026 | 

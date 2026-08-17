@@ -19,11 +19,9 @@ Mục tiêu tuần 5: Lập trình phần frontend cho các trang còn lại tro
 
 \noindent Các công việc cần triển khai trong tuần này
 
-\renewcommand{\arraystretch}{1.5} % Tăng khoảng cách trên-dưới (padding dọc)
-\setlength{\tabcolsep}{8pt}       % Tăng khoảng cách trái-phải (padding ngang)
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
-|--|--------------------------------------------------|--------|---------|
+|--|------------------------------------------------|--------|-----------|
 | 2 | - Nghiên cứu các hiện thực cơ chế tạo 1 canva trống có khả năng kéo dài vô tận bằng đồ thị. Cách thực hiện cơ chế kéo thả ảnh từ nơi khác vào và lưu ảnh lại. \newline - Thực hiện trang Whiteboard với chức năng trên, thêm chức năng tự động lưu Digital Inking của người dùng.| 29/06/2026 | 29/06/2026 |  |
 | 3 | - Viết hàm lấy và hiển thị dữ liệu dưới dạng biểu đồ tròn, thêm bộ lọc hiển thị thống kê theo cột(thường là các trạng thái cần làm/đang làm/đã làm), theo thời gian hoặc phân loại. \newline - Lập trình ô tìm kiếm theo tên task, bộ lọc task theo các thuộc tính. | 30/06/2026 | 30/06/2026 |  |
 | 4 | - Lập trình giao diện tạo bộ lọc tùy chỉnh bao gồm tập hợp nhiều điều kiện khác nhau. \newline - Thêm phần hiển thị các bộ lọc đã lưu, tính năng áp dụng bộ lọc nhanh. | 01/07/2026 | 01/07/2026 |  |

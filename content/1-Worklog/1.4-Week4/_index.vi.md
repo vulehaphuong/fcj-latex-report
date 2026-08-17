@@ -23,11 +23,9 @@ Mục tiêu tuần 4:
 
 \noindent Các công việc cần triển khai trong tuần này
 
-\renewcommand{\arraystretch}{1.5} % Tăng khoảng cách trên-dưới (padding dọc)
-\setlength{\tabcolsep}{8pt}       % Tăng khoảng cách trái-phải (padding ngang)
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
-|--|--------------------------------------------------|--------|---------|
+|--|------------------------------------------------|--------|-----------|
 | 2   | - Khởi tạo frontend, cài đặt môi trường, các cong cụ cần thiết \newline - Bắt đầu viết code cho phần Sign-in, main layout, side bar, trang chủ. | 22/06/2026 | 22/06/2026 |
 | 3   | - Tiếp tục code trang hiển thị task dưới dạng danh sách và chức năng tạo task, các lựa chọn bổ  cũng như chỉnh sửa task đã tồn tại. | 23/06/2026 | 24/06/2026 |
 | 4   |  - Tìm hiểu cơ chế kéo thả Drag and Drop trong React. \newline - Tiếp tục code trang hiển thị task dưới cột - Kanban và chức năng thêm cột mới, đổi tên cột, bổ sung nút tạo task mới trực tiếp dưới từng cột, kéo thả task để chuyển/lưu task sang cột khác. | 24/06/2026 | 25/06/2026 |

@@ -13,7 +13,7 @@ pre: " <b> 1.7. </b> "
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-|--|--------------------------------------------------|--------|---------|
+|--|------------------------------------------------|--------|-----------|
 | 2 | - Conduct joint team testing, check database logs and API network responses. \newline - Fix layout bugs and UI responsiveness issues. | 07/13/2026 | 07/13/2026 |
 | 3 | - Refine frontend code based on team feedback and re-deploy updated build to S3 and CloudFront. | 07/14/2026 | 07/14/2026 |
 | 4 | - Gather React TS technical specifications and supply information for documentation. | 07/15/2026 | 07/15/2026 |

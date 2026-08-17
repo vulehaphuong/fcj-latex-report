@@ -22,11 +22,9 @@ Mục tiêu tuần 9:
 
 \noindent Các công việc cần triển khai trong tuần này
 
-\renewcommand{\arraystretch}{1.5} % Tăng khoảng cách trên-dưới (padding dọc)
-\setlength{\tabcolsep}{8pt}       % Tăng khoảng cách trái-phải (padding ngang)
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
-|--|--------------------------------------------------|--------|---------|
+|--|------------------------------------------------|--------|-----------|
 | 2 | - Quay màn hình demo toàn bộ các tính năng (Sign-in, Sign-up, Dashboard, Tasks, Kanban, Calendar, Timeline, Statistics, Saved Filters, Custom Workflow, Import/Export) \newline - Thu âm thuyết minh chi tiết các bước thao tác và chỉnh sửa biên tập lại video. | 27/07/2026 |  |
 | 3 | - Clone repository aws_workshop_template của nhóm về. \newline - Viết Báo cáo AWS Workshop cá nhân dựa trên template mẫu đã có nội dung về project của nhóm. | 28/07/2026 | 30/07/2026 |  |
 | 4 | - Bổ sung nội dung cho báo cáo, soạn tiếp phần 1-Worklogs, 6-Self-evaluation, 7-Feedback. | 29/07/2026 | 30/07/2026 |  |

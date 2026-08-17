@@ -22,11 +22,9 @@ Mục tiêu tuần 6:
 
 \noindent Các công việc cần triển khai trong tuần này
 
-\renewcommand{\arraystretch}{1.5} % Tăng khoảng cách trên-dưới (padding dọc)
-\setlength{\tabcolsep}{8pt}       % Tăng khoảng cách trái-phải (padding ngang)
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
-|--|--------------------------------------------------|--------|---------|
+|--|------------------------------------------------|--------|-----------|
 | 2 | - Tìm hiểu cơ chế quản lý người dùng của Amazon Cognito cùng phương thức bảo mật bằng JWT Tokens: User Pools, Identity Pools, JWT Tokens. \newline - Xin backend và các biến môi trường gồm API URL, cognito region, user id, client id từ nhóm. \newline - Bổ sung thư viện SDK thao tác với AWS Cognito. Tích hợp SDK Cognito vào luồng đăng nhập React, đồng bộ luồng Authentication. | 06/07/2026 | 06/07/2026 |  |
 | 3 | - Cập nhật environment file. \newline - Sửa lại code để tích hợp màn hình Login, Sign-in thực tế với dịch vụ AWS Cognito User Pool qua SDK. | 07/07/2026 | 07/07/2026 |  |
 | 4 | - Kết nối RESTful API, tiến hành đồng bộ dữ liệu các màn hình với Backend APIs. \newline - Loại bỏ dữ liệu Mock Data, thay thế bằng cách gọi API thực tế tới địa chỉ VITE_API_URL. \newline - Kết nối API thực tế cho trang Dashboard, Tasks, Kanban Board, Calendar, Timeline, Breakdown Statistics, Saved Filters, Custom Workflow và Import/Export. | 08/07/2026 | 10/07/2026 |  |

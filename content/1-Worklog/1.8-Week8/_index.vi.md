@@ -22,11 +22,9 @@ Mục tiêu tuần 8:
 
 \noindent Các công việc cần triển khai trong tuần này
 
-\renewcommand{\arraystretch}{1.5} % Tăng khoảng cách trên-dưới (padding dọc)
-\setlength{\tabcolsep}{8pt}       % Tăng khoảng cách trái-phải (padding ngang)
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
-|--|--------------------------------------------------|--------|---------|
+|--|------------------------------------------------|--------|-----------|
 | 2 | - Soạn thảo tài liệu Workshop phần Workshop: \newline \hspace*{1em} + Viết file hướng dẫn tạo Amazon S3 Bucket private an toàn. \newline \hspace*{1em} + Viết file hướng dẫn cấu hình CloudFront, tạo chứng chỉ OAC cấp quyền cho CloudFront đọc dữ liệu S3. | 20/07/2026 | 21/07/2026 |  |
 | 3 | - Soạn thảo tài liệu Workshop phần Workshop: \newline \hspace*{1em} + Viết file hướng dẫn Cập nhật S3 Bucket Policy. \newline \hspace*{1em} + Viết file hướng dẫn build và đẩy Source Code frontend lên S3. | 21/07/2026 | 22/07/2026 |  |
 | 4 | - Hoàn thiện workshop phần 5.3:S3 | 22/07/2026 | 23/07/2026 |  |
