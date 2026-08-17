@@ -20,10 +20,11 @@
 \usepackage{graphicx}
 \let\oldincludegraphics\includegraphics
 \renewcommand{\includegraphics}[2][]{%
-  \oldincludegraphics[width=\textwidth,keepaspectratio,#1]{#2}%
+  \oldincludegraphics[width=0.9\textwidth, height=0.45\textheight, keepaspectratio, #1]{#2}%
 }
 \usepackage{pdfpages}
 \usepackage{float}
+\floatplacement{figure}{H}
 \usepackage{array}
 \usepackage{tabularx, caption}
 \usepackage{multirow}
@@ -236,11 +237,13 @@ captionpos=b,
     }
 \end{flushleft}
 
-\vspace{0.5cm}
+\vfill
+
 \begin{center}
 {\Large TP. Hồ Chí Minh, Tháng 08/2026}
 \end{center}
-\vfill
+\vspace{0.5cm}
+
 \end{titlepage}
 
 \newpage
