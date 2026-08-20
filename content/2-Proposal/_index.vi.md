@@ -99,6 +99,7 @@ Dự án được thực hiện trong **9 tuần thực tập** (từ **03/06/20
 ### 6. Dự toán Ngân sách (Budget Estimation)
 
 Toàn bộ tài nguyên sử dụng nằm trong phạm vi **AWS Free Tier**:
+
 * **AWS Lambda:** 1.000.000 requests/tháng miễn phí $\rightarrow$ **$0.00**
 * **Amazon DynamoDB:** 25 GB dữ liệu lưu trữ & 25 WCU/RCU miễn phí $\rightarrow$ **$0.00**
 * **Amazon S3:** 5 GB dung lượng Standard Storage miễn phí $\rightarrow$ **$0.00**
