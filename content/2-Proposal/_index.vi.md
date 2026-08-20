@@ -85,17 +85,16 @@ Xây dựng ứng dụng Web dựa trên kiến trúc Serverless toàn diện tr
 
 Dự án được thực hiện trong **9 tuần thực tập** (từ **03/06/2026** đến **31/07/2026**):
 
-* **Tháng 1 (Tuần 1 - Tuần 4):** * Học tập nền tảng AWS (Console, CLI, EC2, IAM, VPC, S3, DynamoDB NoSQL).
+* **Tháng 1 (Tuần 1 - Tuần 5):** 
+  * Học tập nền tảng AWS (Console, CLI, EC2, IAM, VPC, S3, DynamoDB NoSQL).
   * Thiết lập AWS Budgets cảnh báo chi phí.
-* **Tháng 2 (Tuần 5 - Tuần 8):**
   * Nghiên cứu AWS Lambda, API Gateway, Amazon Cognito và S3 Security.
   * Lập CloudWatch Alarms và soạn thảo Proposal dự án gửi Mentor phê duyệt.
-  * Viết và đăng 3 bài Tech Blog lên cộng đồng AWS Study Group.
-* **Tháng 3 (Tuần 9 - Tuần 12):**
-  * **Tuần 9:** Khởi tạo DynamoDB Tables, S3 Attachments Bucket và viết code Backend Lambda CRUD.
-  * **Tuần 10:** Tích hợp API Gateway JWT Authorizer, kết nối Cognito Auth và Deploy Frontend lên S3 + CloudFront CDN.
-  * **Tuần 11:** Kiểm thử End-to-End toàn bộ 8 Epics User Stories, rà soát IAM Roles và lập quy trình Clean-up.
-  * **Tuần 12:** Viết tài liệu hướng dẫn kỹ thuật Step-by-Step (Workshop) và hoàn thiện Báo cáo Hugo song ngữ.
+* **Tháng 2 (Tuần 6 - Tuần 9):**
+  * Khởi tạo DynamoDB Tables, S3 Attachments Bucket và viết code Backend Lambda CRUD.
+  * Tích hợp API Gateway JWT Authorizer, kết nối Cognito Auth và Deploy Frontend lên S3 + CloudFront CDN.
+  * Kiểm thử End-to-End toàn bộ 8 Epics User Stories, rà soát IAM Roles và lập quy trình Clean-up.
+  * Viết tài liệu hướng dẫn kỹ thuật Step-by-Step (Workshop) và hoàn thiện Báo cáo Hugo song ngữ.
 
 ### 6. Dự toán Ngân sách (Budget Estimation)
 
