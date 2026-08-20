@@ -22,7 +22,7 @@ Về tác phong, tôi luôn cố hoàn thành đúng nhiệm vụ, tuân thủ n
 | 1 | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành Cloud, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ thành thạo, chất lượng công việc tốt | ✅ | ☐ | ☐ |
 | 2 | **Khả năng học hỏi** | Tiếp thu kiến thức mới nhanh chóng, chủ động cập nhật công nghệ mới | ☐ | ✅ | ☐ |
 | 3 | **Chủ động** | Tự tìm hiểu, chủ động nhận nhiệm vụ và giải quyết công việc mà không đợi chỉ dẫn chi tiết | ☐ | ✅ | ☐ |
-| 4 | **Tinh thần trách nhiệm** | Hoàn thành công việc đúng tiến độ Worklog 12 tuần, đảm bảo chất lượng sản phẩm | ✅ | ☐ | ☐ |
+| 4 | **Tinh thần trách nhiệm** | Hoàn thành công việc đúng tiến độ Worklog 9 tuần, đảm bảo chất lượng sản phẩm | ✅ | ☐ | ☐ |
 | 5 | **Kỷ luật** | Tuân thủ giờ giấc, nội quy văn phòng và quy trình làm việc báo cáo | ☐ | ✅ | ☐ |
 | 6 | **Tính cầu tiến** | Sẵn sàng nhận feedback từ Mentor và nỗ lực cải thiện bản thân | ☐ | ✅ | ☐ |
 | 7 | **Giao tiếp** | Trình bày ý tưởng kỹ thuật, viết bài blog chia sẻ và báo cáo công việc rõ ràng | ☐ | ✅ | ☐ |
@@ -30,7 +30,7 @@ Về tác phong, tôi luôn cố hoàn thành đúng nhiệm vụ, tuân thủ n
 | 9 | **Ứng xử chuyên nghiệp** | Tôn trọng Mentor, đồng nghiệp, đối tác và môi trường làm việc | ✅ | ☐ | ☐ |
 | 10 | **Tư duy giải quyết vấn đề** | Nhận diện lỗi hệ thống (troubleshooting), đề xuất giải pháp kiến trúc tối ưu và sáng tạo | ✅ | ☐ | ☐ |
 | 11 | **Đóng góp vào dự án/tổ chức** | Hiệu quả công việc cao, hoàn thành 8 Epics User Stories, có bài viết chia sẻ giá trị cho cộng đồng | ☐ | ✅ | ☐ |
-| 12 | **Tổng thể** | Đánh giá chung về toàn bộ quá trình thực tập 12 tuần | ☐ | ✅ | ☐ |
+| 12 | **Tổng thể** | Đánh giá chung về toàn bộ quá trình thực tập 9 tuần | ☐ | ✅ | ☐ |
 
 ### Cần cải thiện
 

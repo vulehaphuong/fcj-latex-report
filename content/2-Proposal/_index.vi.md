@@ -83,7 +83,7 @@ Xây dựng ứng dụng Web dựa trên kiến trúc Serverless toàn diện tr
 
 ### 5. Lộ trình Triển khai (Timeline & Milestones)
 
-Dự án được thực hiện trong **12 tuần thực tập** (từ **03/06/2026** đến **31/07/2026**):
+Dự án được thực hiện trong **9 tuần thực tập** (từ **03/06/2026** đến **31/07/2026**):
 
 * **Tháng 1 (Tuần 1 - Tuần 4):** * Học tập nền tảng AWS (Console, CLI, EC2, IAM, VPC, S3, DynamoDB NoSQL).
   * Thiết lập AWS Budgets cảnh báo chi phí.

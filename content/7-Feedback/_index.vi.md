@@ -11,7 +11,7 @@ includeInReport: false
 
 
 
-> Tại đây, tôi xin chia sẻ một số góc nhìn và cảm nhận cá nhân về trải nghiệm thực tế trong suốt 12 tuần tham gia chương trình First Cloud AI Journey (FCAJ):
+> Tại đây, tôi xin chia sẻ một số góc nhìn và cảm nhận cá nhân về trải nghiệm thực tế trong suốt 9 tuần tham gia chương trình First Cloud AI Journey (FCAJ):
 
 ### Đánh giá chung
 
@@ -21,7 +21,7 @@ includeInReport: false
 
 **3. Sự phù hợp giữa công việc và chuyên ngành học** Nội dung công việc được giao bám rất sát với định hướng chuyên ngành Công nghệ thông tin / Đám mây. Tôi không chỉ củng cố lại lý thuyết đã học ở trường mà còn được tiếp cận trực tiếp với các dịch vụ Cloud thực tế của AWS (Lambda, API Gateway, DynamoDB, Cognito, CloudFront...), giúp thu hẹp khoảng cách giữa lý thuyết và thực hành.
 
-**4. Cơ hội học hỏi & Phát triển kỹ năng** Qua 12 tuần thực tập, tôi đã phát triển thêm các kỹ năng cứng lẫn kỹ năng mềm: từ kỹ năng thiết kế kiến trúc Serverless, tư duy bảo mật IAM/S3, đến kỹ năng quản lý công việc theo Worklog, kỹ năng làm việc nhóm và giao tiếp kỹ thuật. Những chia sẻ thực tế từ Mentor cũng giúp tôi định hướng rõ ràng hơn cho con đường sự nghiệp Cloud Engineer sau khi tốt nghiệp.
+**4. Cơ hội học hỏi & Phát triển kỹ năng** Qua 9 tuần thực tập, tôi đã phát triển thêm các kỹ năng cứng lẫn kỹ năng mềm: từ kỹ năng thiết kế kiến trúc Serverless, tư duy bảo mật IAM/S3, đến kỹ năng quản lý công việc theo Worklog, kỹ năng làm việc nhóm và giao tiếp kỹ thuật. Những chia sẻ thực tế từ Mentor cũng giúp tôi định hướng rõ ràng hơn cho con đường sự nghiệp Cloud Engineer sau khi tốt nghiệp.
 
 **5. Văn hóa & Tinh thần đồng đội** Văn hóa làm việc rất tích cực, tôn trọng và bình đẳng. Mọi người làm việc nghiêm túc nhưng bầu không khí luôn vui vẻ, hòa đồng. Khi có công việc gấp hoặc gặp lỗi phức tạp, các thành viên luôn sẵn sàng ngồi lại hỗ trợ lẫn nhau mà không phân biệt vị trí.
 
